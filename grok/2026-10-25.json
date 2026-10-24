@@ -1,0 +1,119 @@
+{
+  "schema": "grok-inbox/1",
+  "date": "2026-10-25",
+  "generated_at": "2026-10-25T05:25:00+07:00",
+  "window_hours": 24,
+  "status": "ok",
+  "items": [
+    {
+      "id": 1,
+      "title": "Cursor agents gain Computer Use to control desktop apps including iOS Simulator",
+      "category": "feature_update",
+      "event_time": "2026-10-23T15:59:07Z",
+      "primary_url": null,
+      "facts": [
+        "Cursor can now control your computer.",
+        "Agents can drive desktop apps like the iOS Simulator to test the features they build.",
+        "Computer Use lets agents click and type across any app on your computer, not just the browser.",
+        "Cursor uses it on its own when a task needs it. You can also ask for it by @-mentioning Computer Use in your prompt."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/cursor_ai/status/2113661506634305834",
+          "author": "@cursor_ai",
+          "official": true,
+          "posted_at": "2026-10-23T15:59:07Z",
+          "text": "Cursor can now control your computer.\n\nAgents can drive desktop apps like the iOS Simulator to test the features they build."
+        },
+        {
+          "url": "https://x.com/cursor_ai/status/2113661518780998003",
+          "author": "@cursor_ai",
+          "official": true,
+          "posted_at": "2026-10-23T15:59:10Z",
+          "text": "Computer Use lets agents click and type across any app on your computer, not just the browser.\n\nCursor uses it on its own when a task needs it. You can also ask for it by @-mentioning Computer Use in your prompt.\n\nUpdate Cursor to try it: https://cursor.com/download"
+        },
+        {
+          "url": "https://x.com/LexnLin/status/2113662037922296137",
+          "author": "@LexnLin",
+          "official": false,
+          "posted_at": "2026-10-23T16:01:14Z",
+          "text": "how does it compare to computer use from codex and others?"
+        }
+      ],
+      "why_hot": "Official announcement of Computer Use allowing Cursor agents to interact with any desktop app for testing, highlighted with iOS Simulator example.",
+      "reaction": "Users immediately asked how the new Computer Use compares to similar capabilities in Codex and other tools.",
+      "confidence": "high"
+    },
+    {
+      "id": 2,
+      "title": "GitHub Copilot usage metrics API now tracks model requests by client tool including Claude Code and OpenCode",
+      "category": "feature_update",
+      "event_time": "2026-10-23T00:00:00Z",
+      "primary_url": "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode/",
+      "facts": [
+        "The Copilot usage metrics API now reports model usage from more of the tools your developers use with Copilot, including tools like OpenCode that weren’t previously captured in your reports.",
+        "A new totals_by_client array is available in the enterprise, organization, enterprise-user, and organization-user 1-day and 28-day reports.",
+        "Each totals_by_client entry represents one client and includes client (such as opencode, claude_code, codex, zed, copilot_cli, github_app, cloud_agent, code_review, vscode, or jetbrains), request_count, session_count, token_usage, and totals_by_model.",
+        "Unrecognized clients are grouped under other."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/GHchangelog/status/2113782549637955898",
+          "author": "@GHchangelog",
+          "official": true,
+          "posted_at": "2026-10-24T00:00:06Z",
+          "text": "Copilot usage metrics API now includes model usage from more tools like OpenCode in reports.\n\n• Adds a totals_by_client array showing request counts, sessions, tokens, & model breakdowns per client\n\nhttps://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode"
+        },
+        {
+          "url": "https://x.com/pablomanjarress/status/2113858000000000000",
+          "author": "@pablomanjarress",
+          "official": false,
+          "posted_at": "2026-10-24T05:03:01Z",
+          "text": "token breakdowns per client is just a receipt for my bad habits"
+        }
+      ],
+      "why_hot": "Teams can now see Copilot model traffic broken down by external tools like Claude Code, OpenCode, and Codex that previously lacked editor telemetry.",
+      "reaction": "One reply treated the per-client token breakdown as a personal receipt for usage habits.",
+      "confidence": "high"
+    },
+    {
+      "id": 3,
+      "title": "Claude Code engineers Thariq and Anthony Morris announce leaving Anthropic",
+      "category": "discussion",
+      "event_time": "2026-10-24T04:04:29Z",
+      "primary_url": null,
+      "facts": [
+        "Thariq: I’ve left Anthropic after more than a year of working on Claude Code and seeing it scale larger than I ever imagined.",
+        "Thariq: For me, it is time for a bit of a break before diving into something new.",
+        "Anthony Morris: Yesterday was my last day at Anthropic. I created Claude Code on desktop because I believe everyone can be a builder.",
+        "Anthony Morris: I'll share what's next soon!"
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/trq212/status/2113844051938054167",
+          "author": "@trq212",
+          "official": false,
+          "posted_at": "2026-10-24T04:04:29Z",
+          "text": "I’ve left Anthropic after more than a year of working on Claude Code and seeing it scale larger than I ever imagined.\n\nI have really loved working at Ant and believe deeply in the mission, and most of all, the idea of a race to the top.\n\nThe idea that if we work hard and responsibly, we can raise the bar and inspire others to great outcomes. And if we all push each other to be better, things can be radically good. I will carry the spirit of this with me forever.\n\nMy colleagues at Anthropic are the most talented, thoughtful, competent, and earnest people I have ever met. I am glad they are at the wheel and trust them deeply.\n\nTo the community on X, thank you for everything. You’ve made this the most fun (and sometimes stressful) job I’ve ever had.\n\nFor me, it is time for a bit of a break before diving into something new.\n\nIf you want more excellent Claude Code content, you should follow @addyosmani , @lydiahallie, @_catwu, @ClaudeDevs  and of course @bcherny who started it all."
+        },
+        {
+          "url": "https://x.com/amorriscode/status/2113972174524674247",
+          "author": "@amorriscode",
+          "official": false,
+          "posted_at": "2026-10-24T12:33:36Z",
+          "text": "Yesterday was my last day at Anthropic.\n\nI created Claude Code on desktop because I believe everyone can be a builder. Every feature request and bug report we got from this community was a gift that impacted millions of lives. I’m eternally grateful for those gifts, the product wouldn’t be what it is without you.\n\nAnthropic is doing some of the most important work of our time. Contributing to that mission will forever be a career highlight for me. I never imagined I’d get to contribute to something so special in my lifetime.\n\nWalking away from my best friends, a product I poured my heart into, and the mission was the hardest thing I’ve done in my career. But now I have some free time for GTA VI.\n\nI'm already itching to get back to addressing all your feedback. I'll share what's next soon!"
+        },
+        {
+          "url": "https://x.com/lydiahallie/status/2113848824229994548",
+          "author": "@lydiahallie",
+          "official": false,
+          "posted_at": "2026-10-24T04:23:27Z",
+          "text": "😭😭 we'll miss you thariq!! it was so inspiring to work with you, i know you'll crush whatever's next (and looking forward to your claude code feedback!)"
+        }
+      ],
+      "why_hot": "Two visible Claude Code team members publicly announced departures on the same day, sparking discussion about the product and team continuity ahead of Anthropic’s reported IPO preparations.",
+      "reaction": "Colleagues and community expressed that they will miss them and look forward to their future work, with one noting the timing relative to company milestones.",
+      "confidence": "high"
+    }
+  ]
+}
