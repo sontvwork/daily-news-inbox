@@ -10,12 +10,12 @@
       "title": "Cursor agents gain Computer Use to control desktop apps including iOS Simulator",
       "category": "feature_update",
       "event_time": "2026-10-23T15:59:07Z",
-      "primary_url": null,
+      "primary_url": "https://alphasignal.ai/news/cursor-s-computer-use-lets-its-coding-agent-click-through-desktop-apps",
       "facts": [
-        "Cursor can now control your computer.",
-        "Agents can drive desktop apps like the iOS Simulator to test the features they build.",
+        "Cursor can now control your computer. Agents can drive desktop apps like the iOS Simulator to test the features they build.",
         "Computer Use lets agents click and type across any app on your computer, not just the browser.",
-        "Cursor uses it on its own when a task needs it. You can also ask for it by @-mentioning Computer Use in your prompt."
+        "Cursor uses it on its own when a task needs it. You can also ask for it by @-mentioning Computer Use in your prompt.",
+        "The feature is available by updating the desktop app; Cursor announced no accompanying pricing change."
       ],
       "x_posts": [
         {
@@ -33,35 +33,49 @@
           "text": "Computer Use lets agents click and type across any app on your computer, not just the browser.\n\nCursor uses it on its own when a task needs it. You can also ask for it by @-mentioning Computer Use in your prompt.\n\nUpdate Cursor to try it: https://cursor.com/download"
         },
         {
-          "url": "https://x.com/qi9098/status/2114000857029075299",
-          "author": "@qi9098",
+          "url": "https://x.com/ondrejposts/status/2114012287199523195",
+          "author": "@ondrejposts",
           "official": false,
-          "posted_at": "2026-10-24T14:27:35Z",
-          "text": "我把 @cursor_ai 新出的 Computer Use 和 Codex 的 Computer Use 对比测试了一下\n\n任务是直接用的 Cursor 官方 demo 里那个，给一个 SwiftUI 写的 iOS 爬山 app 加收藏功能，然后让它自己在 iOS 模拟器里点一遍测试。\n\n分别测试了：\nCodex gpt-6-astra high\nCodex gpt-6.1-sol high\nCursor Grok 4.7 High\n\n用的是同一句提示词，如下：\n\nYou are in the Trailhead project, a small SwiftUI iOS app. Build and run it on the iOS Simulator with ./run.sh. Do all checking of the app's UI with computer use in the iOS Simulator: tap and look at the real app, do not use simctl, screenshots scripts or UI-test code instead. When you are done, reply with a short summary. Add the ability to favorite trails and demo it in the iOS Simulator.\n\n结果：\n虽然三个都做成了，但是 Cursor 花的时间差不多是 Codex 的四倍😂\n\n具体成绩：\nCodex gpt-6-astra high\n2分01秒\nCodex gpt-6.1-sol high\n2分08秒\nCursor Grok 4.7 High\n8分17秒\n\n我分析了一下，\nCursor 主要卡在列表上面的 All 和 Favorites 切换按钮，来来回回点了三分多钟都没切过去。。。\n反观Codex 这边，两个模型都是一次就点过去了，还多做了一步，把 app 关掉重开，看收藏有没有保存下来\n\n我本来以为 Cursor 出了这个功能之后，Codex 在 Computer Use 上的垄断要被打破了，没想到 Cursor 这么拉\n\n所以目前来看，个人认为最好的方案还是用 LCU，让任意Agent能够直接调用 Codex 的 Computer Use\n链接如下：https://t.co/QXeUnite5M"
+          "posted_at": "2026-10-24T15:13:00Z",
+          "text": "Cursor agents can now control your computer.\n\nSounds like a gimmick until you see what it's for: the agent builds a feature, opens the iOS Simulator, clicks through it and checks it actually works.\n\nFor a freelancer that's the expensive part of every job. Writing code was already fast. Testing it by hand before the client sees it was not.\n\nWrite, run, check in one loop. Closest thing yet to handing off a whole ticket."
         }
       ],
-      "reaction": "A developer compared Cursor Computer Use (with Grok 4.7) to Codex models on the official iOS Simulator demo task and found Cursor took roughly four times longer (8m17s vs ~2m), getting stuck repeatedly on a UI button while Codex succeeded quickly and also verified state persistence by restarting the app.",
+      "reaction": "A freelancer noted that the feature addresses the costly manual testing step after fast code generation, enabling a write-run-check loop for handing off complete tickets.",
       "confidence": "high"
     },
     {
       "id": 2,
-      "title": "Claude Code v2.1.310 adds Monitor tool and fixes gateway and cleanup issues",
+      "title": "Claude Code CLI adds MCP Tasks and Elicitations for long-running jobs and mid-task input",
       "category": "feature_update",
-      "event_time": "2026-10-23T23:39:00Z",
-      "primary_url": "https://code.claude.com/docs/en/changelog",
+      "event_time": "2026-10-23T18:24:08Z",
+      "primary_url": "https://code.claude.com/docs/en/mcp",
       "facts": [
-        "Added the Monitor tool and plugin monitors on Bedrock, Vertex, and Foundry, and when telemetry or nonessential traffic is disabled; long foreground sleeps are now blocked there too",
-        "Fixed requests failing behind some gateways and compatible servers that reject the effort-2025-11-24 beta value or mid-conversation system messages; Claude Code now retries without them",
-        "Fixed background cleanup deleting some recent files, such as pasted images, when cleanupPeriodDays is set to a very large value",
-        "Fixed compaction after a “Prompt is too long” error keeping too much of a conversation with dense text, such as base64 or SVG, so the next request could fail again"
+        "We’re adding support for MCP Tasks and Elicitations in Claude. Tasks let Claude give plugins long-running jobs such as deep research and report back when they’re done.",
+        "Elicitations let plugins ask users for input mid-task, such as confirming a refund or filling in a missing detail.",
+        "Tasks and Elicitations are available today in the Claude Code CLI, rolling out to more Claude products soon.",
+        "MCP tasks are in public beta in the Claude Code CLI and require Claude Code v2.1.304 or later."
       ],
       "x_posts": [
         {
-          "url": "https://x.com/MrBugia/status/2113997686580121829",
-          "author": "@MrBugia",
-          "official": false,
-          "posted_at": "2026-10-24T14:14:59Z",
-          "text": "Claude Code still says “Prompt is too long” after compaction?\n\nOct 23’s v2.1.310 fixes a case where dense text, such as base64/SVG, left too much context behind.\n\nCheck your version before repeatedly trimming prompts.\nhttps://github.com/anthropics/claude-code/releases/tag/v2.1.310"
+          "url": "https://x.com/ClaudeDevs/status/2113698001889927608",
+          "author": "@ClaudeDevs",
+          "official": true,
+          "posted_at": "2026-10-23T18:24:08Z",
+          "text": "We’re adding support for MCP Tasks and Elicitations in Claude.\n\nTasks let Claude give plugins long-running jobs such as deep research and report back when they’re done."
+        },
+        {
+          "url": "https://x.com/ClaudeDevs/status/2113698005161533504",
+          "author": "@ClaudeDevs",
+          "official": true,
+          "posted_at": "2026-10-23T18:24:09Z",
+          "text": "Elicitations let plugins ask users for input mid-task, such as confirming a refund or filling in a missing detail."
+        },
+        {
+          "url": "https://x.com/ClaudeDevs/status/2113698007892070527",
+          "author": "@ClaudeDevs",
+          "official": true,
+          "posted_at": "2026-10-23T18:24:10Z",
+          "text": "Tasks and Elicitations are available today in the Claude Code CLI, rolling out to more Claude products soon.\n\nBuilding plugins for Claude? Add Tasks and Elicitations to your MCP server today."
         }
       ],
       "reaction": null,
@@ -69,40 +83,26 @@
     },
     {
       "id": 3,
-      "title": "Moonshot AI launches Kimi K3.1 Pro with strong coding agent performance",
-      "category": "model_infra",
-      "event_time": "2026-10-23T17:15:28Z",
-      "primary_url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "title": "Creator of Claude Code desktop announces departure from Anthropic",
+      "category": "trend",
+      "event_time": "2026-10-24T12:33:36Z",
+      "primary_url": null,
       "facts": [
-        "We're introducing Kimi K3.1 Pro, the first model in our new K3.1 series and our most capable 3T-class open-weight model to date, with a 1-million-token context window.",
-        "Kimi K3.1 Pro and Kimi K3.1 Pro Highspeed are available today on Kimi.ai, Kimi Work, Kimi Code, and the Kimi API. The full model weights will be released by Nov 4.",
-        "On Terminal-Bench 4.0, which evaluates coding agents on realistic, resource-constrained terminal tasks using strict task-specific tests, K3.1 Pro scores 65.7%, ahead of GPT-6 Astra (58.2%) and narrowly behind Claude Opus 5.5 (66.4%).",
-        "On Kimi Code Bench 3.0 Long-horizon, our internal benchmark that tests coding agents' multi-step execution, tool use, and end-to-end problem solving across diverse engineering domains, K3.1 Pro scores 61.2%, above K3's 55.95%."
+        "Yesterday was my last day at Anthropic. I created Claude Code on desktop because I believe everyone can be a builder.",
+        "Every feature request and bug report we got from this community was a gift that impacted millions of lives.",
+        "Walking away from my best friends, a product I poured my heart into, and the mission was the hardest thing I’ve done in my career.",
+        "I'm already itching to get back to addressing all your feedback. I'll share what's next soon!"
       ],
       "x_posts": [
         {
-          "url": "https://x.com/Kimi_Moonshot/status/2113681863109939271",
-          "author": "@Kimi_Moonshot",
-          "official": true,
-          "posted_at": "2026-10-23T17:20:01Z",
-          "text": "Meet Kimi K3.1 Pro, our most capable 3T-class model."
-        },
-        {
-          "url": "https://x.com/Kimi_Moonshot/status/2113680718249500786",
-          "author": "@Kimi_Moonshot",
-          "official": true,
-          "posted_at": "2026-10-23T17:15:28Z",
-          "text": "K3.1 Pro API and K3.1 Pro Highspeed (2-3× faster), both available now at https://platform.kimi.ai"
-        },
-        {
-          "url": "https://x.com/LexnLin/status/2113681964071035277",
-          "author": "@LexnLin",
+          "url": "https://x.com/amorriscode/status/2113972174524674247",
+          "author": "@amorriscode",
           "official": false,
-          "posted_at": "2026-10-23T17:20:25Z",
-          "text": "dude this benchmark result is INSANE"
+          "posted_at": "2026-10-24T12:33:36Z",
+          "text": "Yesterday was my last day at Anthropic.\n \nI created Claude Code on desktop because I believe everyone can be a builder. Every feature request and bug report we got from this community was a gift that impacted millions of lives. I’m eternally grateful for those gifts, the product wouldn’t be what it is without you.\n \nAnthropic is doing some of the most important work of our time. Contributing to that mission will forever be a career highlight for me. I never imagined I’d get to contribute to something so special in my lifetime.\n\nWalking away from my best friends, a product I poured my heart into, and the mission was the hardest thing I’ve done in my career. But now I have some free time for GTA VI.\n\nI'm already itching to get back to addressing all your feedback. I'll share what's next soon!"
         }
       ],
-      "reaction": "Early reactions on the announcement thread highlighted the benchmark results as impressive.",
+      "reaction": null,
       "confidence": "high"
     }
   ]
