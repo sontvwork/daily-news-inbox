@@ -1,13 +1,13 @@
 {
   "schema": "grok-inbox/1",
   "date": "2026-10-24",
-  "generated_at": "2026-10-24T22:30:00+07:00",
+  "generated_at": "2026-10-24T22:49:00+07:00",
   "window_hours": 24,
   "status": "ok",
   "items": [
     {
       "id": 1,
-      "title": "Cursor agents gain Computer Use to control desktop apps including iOS Simulator",
+      "title": "Cursor agents gain Computer Use to control local desktop apps",
       "category": "feature_update",
       "event_time": "2026-10-23T15:59:07Z",
       "primary_url": "https://alphasignal.ai/news/cursor-s-computer-use-lets-its-coding-agent-click-through-desktop-apps",
@@ -15,7 +15,7 @@
         "Cursor can now control your computer. Agents can drive desktop apps like the iOS Simulator to test the features they build.",
         "Computer Use lets agents click and type across any app on your computer, not just the browser.",
         "Cursor uses it on its own when a task needs it. You can also ask for it by @-mentioning Computer Use in your prompt.",
-        "The feature is available by updating the desktop app; Cursor announced no accompanying pricing change."
+        "Update Cursor to try it."
       ],
       "x_posts": [
         {
@@ -31,67 +31,71 @@
           "official": true,
           "posted_at": "2026-10-23T15:59:10Z",
           "text": "Computer Use lets agents click and type across any app on your computer, not just the browser.\n\nCursor uses it on its own when a task needs it. You can also ask for it by @-mentioning Computer Use in your prompt.\n\nUpdate Cursor to try it: https://cursor.com/download"
-        },
-        {
-          "url": "https://x.com/ondrejposts/status/2114012287199523195",
-          "author": "@ondrejposts",
-          "official": false,
-          "posted_at": "2026-10-24T15:13:00Z",
-          "text": "Cursor agents can now control your computer.\n\nSounds like a gimmick until you see what it's for: the agent builds a feature, opens the iOS Simulator, clicks through it and checks it actually works.\n\nFor a freelancer that's the expensive part of every job. Writing code was already fast. Testing it by hand before the client sees it was not.\n\nWrite, run, check in one loop. Closest thing yet to handing off a whole ticket."
         }
       ],
-      "reaction": "A freelancer noted that the feature addresses the costly manual testing step after fast code generation, enabling a write-run-check loop for handing off complete tickets.",
+      "why_hot": "Official announcement of local Computer Use for Cursor agents, enabling them to interact with desktop apps like the iOS Simulator for testing, drawing high engagement as it expands agent capabilities beyond browser and code edits.",
+      "reaction": null,
       "confidence": "high"
     },
     {
       "id": 2,
-      "title": "Claude Code CLI adds MCP Tasks and Elicitations for long-running jobs and mid-task input",
+      "title": "Claude Code 2.1.310 released with Monitor tool and multiple fixes",
       "category": "feature_update",
-      "event_time": "2026-10-23T18:24:08Z",
-      "primary_url": "https://code.claude.com/docs/en/mcp",
+      "event_time": "2026-10-23T00:00:00Z",
+      "primary_url": "https://code.claude.com/docs/en/changelog.md",
       "facts": [
-        "We’re adding support for MCP Tasks and Elicitations in Claude. Tasks let Claude give plugins long-running jobs such as deep research and report back when they’re done.",
-        "Elicitations let plugins ask users for input mid-task, such as confirming a refund or filling in a missing detail.",
-        "Tasks and Elicitations are available today in the Claude Code CLI, rolling out to more Claude products soon.",
-        "MCP tasks are in public beta in the Claude Code CLI and require Claude Code v2.1.304 or later."
+        "Added the Monitor tool and plugin monitors on Bedrock, Vertex, and Foundry, and when telemetry or nonessential traffic is disabled; long foreground sleeps are now blocked there too.",
+        "Fixed requests failing behind some gateways and compatible servers that reject the effort-2025-11-24 beta value or mid-conversation system messages; Claude Code now retries without them.",
+        "Fixed background cleanup deleting some recent files, such as pasted images, when cleanupPeriodDays is set to a very large value.",
+        "Fixed compaction after a \"Prompt is too long\" error keeping too much of a conversation with dense text, such as base64 or SVG, so the next request could fail again."
       ],
       "x_posts": [
         {
-          "url": "https://x.com/ClaudeDevs/status/2113698001889927608",
-          "author": "@ClaudeDevs",
-          "official": true,
-          "posted_at": "2026-10-23T18:24:08Z",
-          "text": "We’re adding support for MCP Tasks and Elicitations in Claude.\n\nTasks let Claude give plugins long-running jobs such as deep research and report back when they’re done."
-        },
-        {
-          "url": "https://x.com/ClaudeDevs/status/2113698005161533504",
-          "author": "@ClaudeDevs",
-          "official": true,
-          "posted_at": "2026-10-23T18:24:09Z",
-          "text": "Elicitations let plugins ask users for input mid-task, such as confirming a refund or filling in a missing detail."
-        },
-        {
-          "url": "https://x.com/ClaudeDevs/status/2113698007892070527",
-          "author": "@ClaudeDevs",
-          "official": true,
-          "posted_at": "2026-10-23T18:24:10Z",
-          "text": "Tasks and Elicitations are available today in the Claude Code CLI, rolling out to more Claude products soon.\n\nBuilding plugins for Claude? Add Tasks and Elicitations to your MCP server today."
+          "url": "https://x.com/MrBugia/status/2113997686580121829",
+          "author": "@MrBugia",
+          "official": false,
+          "posted_at": "2026-10-24T14:14:59Z",
+          "text": "Claude Code still says \u201cPrompt is too long\u201d after compaction?\n\nOct 23\u2019s v2.1.310 fixes a case where dense text, such as base64/SVG, left too much context behind.\n\nCheck your version before repeatedly trimming prompts.\nhttps://github.com/anthropics/claude-code/releases/tag/v2.1.310"
         }
       ],
+      "why_hot": "Regular update addressing reliability issues in cloud setups, compaction loops, and permission handling that affect daily agentic coding workflows.",
       "reaction": null,
       "confidence": "high"
     },
     {
       "id": 3,
-      "title": "Creator of Claude Code desktop announces departure from Anthropic",
-      "category": "trend",
+      "title": "GitHub Copilot usage metrics API adds client-level data for tools like OpenCode",
+      "category": "feature_update",
+      "event_time": "2026-10-23T00:00:00Z",
+      "primary_url": "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode/",
+      "facts": [
+        "The Copilot usage metrics API now reports model usage from more of the tools your developers use with Copilot, including tools like OpenCode that weren’t previously captured in your reports.",
+        "A new totals_by_client array is available in the enterprise, organization, enterprise-user, and organization-user 1-day and 28-day reports.",
+        "Each totals_by_client entry represents one client and includes client, request_count, session_count, token_usage, and totals_by_model."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/GHchangelog/status/2113782549637955898",
+          "author": "@GHchangelog",
+          "official": true,
+          "posted_at": "2026-10-24T00:00:06Z",
+          "text": "Copilot usage metrics API now includes model usage from more tools like OpenCode in reports.\n\n\u2022 Adds a totals_by_client array showing request counts, sessions, tokens, & model breakdowns per client\n\nhttps://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode"
+        }
+      ],
+      "why_hot": "Improves visibility into Copilot model usage across external tools and agents, helping teams track adoption of agentic workflows outside the IDE.",
+      "reaction": null,
+      "confidence": "high"
+    },
+    {
+      "id": 4,
+      "title": "Claude Code desktop creator Anthony Morris leaves Anthropic",
+      "category": "discussion",
       "event_time": "2026-10-24T12:33:36Z",
       "primary_url": null,
       "facts": [
-        "Yesterday was my last day at Anthropic. I created Claude Code on desktop because I believe everyone can be a builder.",
-        "Every feature request and bug report we got from this community was a gift that impacted millions of lives.",
-        "Walking away from my best friends, a product I poured my heart into, and the mission was the hardest thing I’ve done in my career.",
-        "I'm already itching to get back to addressing all your feedback. I'll share what's next soon!"
+        "Yesterday was my last day at Anthropic.",
+        "I created Claude Code on desktop because I believe everyone can be a builder.",
+        "Walking away from my best friends, a product I poured my heart into, and the mission was the hardest thing I\u2019ve done in my career."
       ],
       "x_posts": [
         {
@@ -99,9 +103,10 @@
           "author": "@amorriscode",
           "official": false,
           "posted_at": "2026-10-24T12:33:36Z",
-          "text": "Yesterday was my last day at Anthropic.\n \nI created Claude Code on desktop because I believe everyone can be a builder. Every feature request and bug report we got from this community was a gift that impacted millions of lives. I’m eternally grateful for those gifts, the product wouldn’t be what it is without you.\n \nAnthropic is doing some of the most important work of our time. Contributing to that mission will forever be a career highlight for me. I never imagined I’d get to contribute to something so special in my lifetime.\n\nWalking away from my best friends, a product I poured my heart into, and the mission was the hardest thing I’ve done in my career. But now I have some free time for GTA VI.\n\nI'm already itching to get back to addressing all your feedback. I'll share what's next soon!"
+          "text": "Yesterday was my last day at Anthropic.\n \nI created Claude Code on desktop because I believe everyone can be a builder. Every feature request and bug report we got from this community was a gift that impacted millions of lives. I\u2019m eternally grateful for those gifts, the product wouldn\u2019t be what it is without you.\n \nAnthropic is doing some of the most important work of our time. Contributing to that mission will forever be a career highlight for me. I never imagined I\u2019d get to contribute to something so special in my lifetime.\n\nWalking away from my best friends, a product I poured my heart into, and the mission was the hardest thing I\u2019ve done in my career. But now I have some free time for GTA VI.\n\nI'm already itching to get back to addressing all your feedback. I'll share what's next soon!"
         }
       ],
+      "why_hot": "High-engagement personal announcement from the creator of Claude Code desktop about leaving Anthropic, sparking discussion in the AI coding community about team changes.",
       "reaction": null,
       "confidence": "high"
     }
