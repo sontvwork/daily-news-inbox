@@ -1,0 +1,127 @@
+{
+  "schema": "grok-inbox/1",
+  "date": "2026-10-24",
+  "generated_at": "2026-10-24T17:33:00+07:00",
+  "window_hours": 24,
+  "status": "ok",
+  "items": [
+    {
+      "id": 1,
+      "title": "Cursor agents can now control your computer via Computer Use to drive desktop apps",
+      "category": "feature_update",
+      "event_time": "2026-10-23T15:59:07Z",
+      "primary_url": "https://cursor.com/download",
+      "facts": [
+        "Cursor announced that agents can drive desktop apps like the iOS Simulator to test the features they build.",
+        "Computer Use lets agents click and type across any app on your computer, not just the browser.",
+        "Cursor uses it on its own when a task needs it; users can also request it by @-mentioning Computer Use in the prompt.",
+        "Users can try it by updating Cursor."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/cursor_ai/status/2113661506634305834",
+          "author": "@cursor_ai",
+          "official": true,
+          "posted_at": "2026-10-23T15:59:07Z",
+          "text": "Cursor can now control your computer.\n\nAgents can drive desktop apps like the iOS Simulator to test the features they build."
+        },
+        {
+          "url": "https://x.com/cursor_ai/status/2113661518780998003",
+          "author": "@cursor_ai",
+          "official": true,
+          "posted_at": "2026-10-23T15:59:10Z",
+          "text": "Computer Use lets agents click and type across any app on your computer, not just the browser.\n\nCursor uses it on its own when a task needs it. You can also ask for it by @-mentioning Computer Use in your prompt.\n\nUpdate Cursor to try it: https://cursor.com/download"
+        }
+      ],
+      "reaction": "Developers welcomed the ability for agents to close the testing loop on desktop apps and simulators, with some noting it reduces manual verification steps.",
+      "confidence": "high"
+    },
+    {
+      "id": 2,
+      "title": "Claude Code v2.1.310 adds Monitor tool support and gateway fixes",
+      "category": "feature_update",
+      "event_time": "2026-10-23T23:39:00Z",
+      "primary_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.310",
+      "facts": [
+        "Added the Monitor tool and plugin monitors on Bedrock, Vertex, and Foundry, and when telemetry or nonessential traffic is disabled; long foreground sleeps are now blocked there too.",
+        "Fixed requests failing behind some gateways and compatible servers that reject the effort-2025-11-24 beta value or mid-conversation system messages; Claude Code now retries without them.",
+        "Fixed background cleanup deleting some recent files, such as pasted images, when cleanupPeriodDays is set to a very large value.",
+        "Other fixes include compaction handling, permission prompts, Windows hooks, and cloud session improvements."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/Syntag_Breaker/status/2113937809585402327",
+          "author": "@Syntag_Breaker",
+          "official": false,
+          "posted_at": "2026-10-24T10:17:03Z",
+          "text": "ข่าวใหม่: Claude Code 2.1.310 เพิ่มเครื่องมือ Monitor และมอนิเตอร์ของปลั๊กอินบน Bedrock, Vertex, Foundry\nคืออะไร: ใช้ Monitor tool และมอนิเตอร์ของปลั๊กอินบน Bedrock, Vertex, Foundry ได้แล้ว\nแหล่ง: https://github.com/anthropics/claude-code/releases/tag/v2.1.310"
+        }
+      ],
+      "reaction": "Users noted the gateway retry fix and Monitor tool additions for enterprise deployments, with some checking cleanup behavior.",
+      "confidence": "high"
+    },
+    {
+      "id": 3,
+      "title": "Moonshot launches Kimi K3.1 Pro model with strong Terminal-Bench coding performance",
+      "category": "model_infra",
+      "event_time": "2026-10-23T17:15:28Z",
+      "primary_url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
+      "facts": [
+        "Kimi K3.1 Pro is a post-trained version of K3, a 2.8T-total / 104B-active MoE with 1M-token context, available now on Kimi.ai, Kimi Code, and the API.",
+        "It scores 65.7% on Terminal-Bench 4.0 (ahead of GPT-6 Astra 58.2%, behind Claude Opus 5.5 66.4%) and 61.2% on internal Kimi Code Bench 3.0 Long-horizon.",
+        "API pricing is $2 input / $10 output per million tokens; full weights promised by Nov 4, 2026.",
+        "Cyber-related data was removed from mid-training and RL for the open-weight release."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/Kimi_Moonshot/status/2113681863109939271",
+          "author": "@Kimi_Moonshot",
+          "official": true,
+          "posted_at": "2026-10-23T17:20:01Z",
+          "text": "Meet Kimi K3.1 Pro, our most capable 3T-class model."
+        },
+        {
+          "url": "https://x.com/Kimi_Moonshot/status/2113680718249500786",
+          "author": "@Kimi_Moonshot",
+          "official": true,
+          "posted_at": "2026-10-23T17:15:28Z",
+          "text": "K3.1 Pro API and K3.1 Pro Highspeed (2-3× faster), both available now at https://platform.kimi.ai"
+        }
+      ],
+      "reaction": "Coding agent users and tool makers highlighted its competitive Terminal-Bench scores at lower cost compared to frontier models.",
+      "confidence": "high"
+    },
+    {
+      "id": 4,
+      "title": "GitHub Copilot usage metrics API now includes usage from external tools like OpenCode",
+      "category": "feature_update",
+      "event_time": "2026-10-23T00:00:00Z",
+      "primary_url": "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode",
+      "facts": [
+        "The Copilot usage metrics API now reports model usage from more tools, including OpenCode, via a new totals_by_client array in enterprise and organization reports.",
+        "Each entry includes client name (e.g., opencode, claude_code, codex), request_count, session_count, token_usage, and totals_by_model.",
+        "This closes the gap for tools that use Copilot as a model provider but do not send editor telemetry.",
+        "Available for 1-day and 28-day reports to owners and those with View Copilot Metrics permission."
+      ],
+      "x_posts": [],
+      "reaction": "Teams using mixed agent stacks noted improved visibility into Copilot consumption across CLI and other clients.",
+      "confidence": "high"
+    },
+    {
+      "id": 5,
+      "title": "GitHub Copilot in Microsoft Teams can turn notifications into code changes",
+      "category": "feature_update",
+      "event_time": "2026-10-23T00:00:00Z",
+      "primary_url": "https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams",
+      "facts": [
+        "The new GitHub app in Microsoft Teams brings repository notifications and GitHub Copilot together so teams can turn updates into action.",
+        "Reply to a notification and @mention GitHub with a task; Copilot can reproduce bugs, run tests, implement fixes, and prepare a pull request.",
+        "Requires a paid Copilot plan and cloud sandboxes; notifications themselves do not require a license.",
+        "Previously called GitHub notifications; existing users should update the app."
+      ],
+      "x_posts": [],
+      "reaction": "Developers saw it as a way to act on issues directly from chat without context switching.",
+      "confidence": "high"
+    }
+  ]
+}
