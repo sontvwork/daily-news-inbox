@@ -1,7 +1,7 @@
 {
   "schema": "grok-inbox/1",
   "date": "2026-10-24",
-  "generated_at": "2026-10-24T23:05:00+07:00",
+  "generated_at": "2026-10-24T23:20:00+07:00",
   "window_hours": 24,
   "status": "ok",
   "items": [
@@ -10,7 +10,7 @@
       "title": "Cursor agents gain Computer Use to control local desktop apps",
       "category": "feature_update",
       "event_time": "2026-10-23T15:59:07Z",
-      "primary_url": "https://x.com/cursor_ai/status/2113661506634305834",
+      "primary_url": null,
       "facts": [
         "Cursor can now control your computer. Agents can drive desktop apps like the iOS Simulator to test the features they build.",
         "Computer Use lets agents click and type across any app on your computer, not just the browser.",
@@ -42,10 +42,10 @@
       "event_time": "2026-10-23T17:15:24Z",
       "primary_url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
       "facts": [
-        "Introducing Kimi K3.1 Pro: our most capable 3T-class open-weight model. 1M-token context, 2.8T total / 104B active params (MoE), Multimodal.",
+        "We're introducing Kimi K3.1 Pro, the first model in our new K3.1 series and our most capable 3T-class open-weight model to date, with a 1-million-token context window.",
         "On Terminal-Bench 4.0, K3.1 Pro scores 65.7%, ahead of GPT-6 Astra (58.2%) and narrowly behind Claude Opus 5.5 (66.4%).",
-        "Kimi K3.1 Pro and K3.1 Pro Highspeed (2\u20133\u00d7 faster) are now live on Kimi.ai, Kimi Work, Kimi Code, and the Kimi API. Full weights by Nov 4, 2026.",
-        "API pricing listed at $2 input / $10 output per million tokens for kimi-k3.1-pro."
+        "Kimi K3.1 Pro and Kimi K3.1 Pro Highspeed (2-3x faster) are available today on Kimi.ai, Kimi Work, Kimi Code, and the Kimi API. Full model weights will be released by Nov 4.",
+        "It delivers substantial improvements across coding, 3D creation, financial research, and other agentic capabilities."
       ],
       "x_posts": [
         {
@@ -107,19 +107,28 @@
         "A new totals_by_client array is available in the enterprise, organization, enterprise-user, and organization-user 1-day and 28-day reports.",
         "Each totals_by_client entry includes client, request_count, session_count, token_usage, and totals_by_model."
       ],
-      "x_posts": [],
+      "x_posts": [
+        {
+          "url": "https://x.com/GHchangelog/status/2113782549637955898",
+          "author": "@GHchangelog",
+          "official": true,
+          "posted_at": "2026-10-24T00:00:06Z",
+          "text": "Copilot usage metrics API now includes model usage from more tools like OpenCode in reports.\n\u2022 Adds a totals_by_client array showing request counts, sessions, tokens, & model breakdowns per client\n\nhttps://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode/"
+        }
+      ],
       "reaction": null
     },
     {
       "id": 6,
-      "title": "GitHub Copilot in Teams turns notifications into code",
-      "category": "feature_update",
-      "event_time": "2026-10-23T00:00:00Z",
-      "primary_url": "https://github.blog/changelog/2026-10-23-turn-notifications-into-code-with-github-copilot-in-teams",
+      "title": "Functionize launches MCP server for AI coding agents to run live app tests",
+      "category": "tool_launch",
+      "event_time": "2026-10-23T08:15:00Z",
+      "primary_url": "https://itbrief.co.uk/story/functionize-launches-mcp-server-for-ai-coding-agents",
       "facts": [
-        "The new GitHub app in Microsoft Teams brings GitHub notifications and GitHub Copilot together, helping your team turn repository updates into action.",
-        "When an update needs action, reply to the notification and @mention GitHub with the task you want GitHub Copilot to carry out.",
-        "GitHub Copilot uses the issue or pull request linked in the notification and the conversation in the thread to understand the task. It can reproduce a bug, run tests, implement a fix, and prepare a pull request for review."
+        "Functionize has released an MCP server that links its testing platform with coding agents including Claude Code, Cursor and GitHub Copilot.",
+        "The product connects Functionize Studio to MCP-compatible clients, allowing users to request a smoke or regression suite in plain language and receive the result in the conversation.",
+        "Studio builds the tests, runs them against the application, and returns details on what failed and why.",
+        "The MCP server is available to existing Functionize Studio customers and trial users."
       ],
       "x_posts": [],
       "reaction": null
