@@ -1,7 +1,7 @@
 {
   "schema": "grok-inbox/1",
   "date": "2026-10-24",
-  "generated_at": "2026-10-24T23:20:00+07:00",
+  "generated_at": "2026-10-24T23:25:00+07:00",
   "window_hours": 24,
   "status": "ok",
   "items": [
@@ -10,12 +10,12 @@
       "title": "Cursor agents gain Computer Use to control local desktop apps",
       "category": "feature_update",
       "event_time": "2026-10-23T15:59:07Z",
-      "primary_url": null,
+      "primary_url": "https://alphasignal.ai/news/cursor-s-computer-use-lets-its-coding-agent-click-through-desktop-apps",
       "facts": [
-        "Cursor can now control your computer. Agents can drive desktop apps like the iOS Simulator to test the features they build.",
-        "Computer Use lets agents click and type across any app on your computer, not just the browser.",
-        "Cursor uses it on its own when a task needs it. You can also ask for it by @-mentioning Computer Use in your prompt.",
-        "Update Cursor to try it."
+        "Cursor's local agent can now click and type across any desktop app, driving tools like the iOS Simulator to verify the code it writes.",
+        "Developers can invoke Computer Use by adding @Computer Use to a prompt. Cursor may also select the tool automatically when a task requires interaction with a visual interface.",
+        "The feature is available by updating the desktop app. Cursor announced no accompanying pricing change.",
+        "Previously available only in cloud agents' isolated VMs or self-hosted workers, not the local IDE."
       ],
       "x_posts": [
         {
@@ -33,18 +33,20 @@
           "text": "Computer Use lets agents click and type across any app on your computer, not just the browser.\n\nCursor uses it on its own when a task needs it. You can also ask for it by @-mentioning Computer Use in your prompt.\n\nUpdate Cursor to try it: https://cursor.com/download"
         }
       ],
-      "reaction": "Community notes it closes the loop on mobile development by letting agents test in iOS Simulator end-to-end, with some comparing it to computer use in Codex and other tools; high engagement on the official announcement."
+      "why_hot": "Official announcement of Computer Use for local agents, enabling end-to-end testing in apps like iOS Simulator, with massive engagement on the posts.",
+      "reaction": "Users note it closes the loop for mobile development by letting agents test features themselves; some highlight the need for caution with real desktop access.",
+      "confidence": "high"
     },
     {
       "id": 2,
-      "title": "Moonshot launches Kimi K3.1 Pro open-weight MoE with strong coding performance",
+      "title": "Moonshot launches Kimi K3.1 Pro with strong Terminal-Bench coding scores",
       "category": "model_infra",
       "event_time": "2026-10-23T17:15:24Z",
       "primary_url": "https://www.kimi.ai/blog/kimi-k3-1-pro",
       "facts": [
         "We're introducing Kimi K3.1 Pro, the first model in our new K3.1 series and our most capable 3T-class open-weight model to date, with a 1-million-token context window.",
-        "On Terminal-Bench 4.0, K3.1 Pro scores 65.7%, ahead of GPT-6 Astra (58.2%) and narrowly behind Claude Opus 5.5 (66.4%).",
-        "Kimi K3.1 Pro and Kimi K3.1 Pro Highspeed (2-3x faster) are available today on Kimi.ai, Kimi Work, Kimi Code, and the Kimi API. Full model weights will be released by Nov 4.",
+        "On Terminal-Bench 4.0, which evaluates coding agents on realistic, resource-constrained terminal tasks using strict task-specific tests, K3.1 Pro scores 65.7%, ahead of GPT-6 Astra (58.2%) and narrowly behind Claude Opus 5.5 (66.4%).",
+        "Kimi K3.1 Pro and Kimi K3.1 Pro Highspeed are available today on Kimi.ai, Kimi Work, Kimi Code, and the Kimi API. The full model weights will be released by Nov 4.",
         "It delivers substantial improvements across coding, 3D creation, financial research, and other agentic capabilities."
       ],
       "x_posts": [
@@ -56,34 +58,13 @@
           "text": "Introducing Kimi K3.1 Pro: our most capable 3T-class open-weight model.\n\n\ud83d\udd39 1M-token context, 2.8T total / 104B active params (MoE), Multimodal.\n\ud83d\udd39 Full-project coding: games in Unreal, Unity & Godot.\n\ud83d\udd39 Excels at parametric 3D modeling in Blender & CAD.\n\ud83d\udd39 More reliable at finance work: Accurate modeling with hallucination down by 65%.\n\ud83d\udd39 Matching the strongest proprietary models across coding, agentic and knowledge benchmarks.\n\nKimi K3.1 Pro and K3.1 Pro Highspeed (2\u20133\u00d7 faster) are now live on https://t.co/85jA71X9gw, Kimi Work, Kimi Code, and the Kimi API.  \n\nOpen weights by Nov 4, 2026."
         }
       ],
-      "reaction": "Developers highlight the near-parity with Opus 5.5 on Terminal-Bench at roughly half the cost and the open-weight commitment, with some noting cyber capability was deliberately reduced for the open release."
+      "why_hot": "Launch of a high-performing open-weight model scoring near Claude Opus 5.5 on Terminal-Bench, with emphasis on full-project coding and agentic work.",
+      "reaction": "Community notes the near-parity on coding benchmarks and the planned open weights, with comments on reduced cyber capabilities for the open release.",
+      "confidence": "high"
     },
     {
       "id": 3,
-      "title": "Artificial Analysis launches Coding Agent Index v2.0",
-      "category": "adoption_survey",
-      "event_time": "2026-10-23T00:17:33Z",
-      "primary_url": "https://artificialanalysis.ai/methodology/coding-agents-benchmarking",
-      "facts": [
-        "Announcing Artificial Analysis Coding Agent Index v2.0: FrontierCode v1.1 from Cognition replaces DeepSWE, SWE-Atlas-QnA grading is revised, and Claude Opus 5.5 in Claude Code leads at 61.7.",
-        "The Index evaluates models together with their agent harnesses, now across 290 tasks covering software engineering, terminal use, and repository Q&A, with the three benchmarks weighted equally.",
-        "Claude Code with Claude Opus 5.5 (max) scores 61.7, followed by Claude Code with Claude Sonnet 5.5 (max) at 59.3.",
-        "Across 21 configurations measured on both versions, mean Index score moves from 54.8 to 47.4."
-      ],
-      "x_posts": [
-        {
-          "url": "https://x.com/ArtificialAnlys/status/2113424551396934134",
-          "author": "@ArtificialAnlys",
-          "official": true,
-          "posted_at": "2026-10-23T00:17:33Z",
-          "text": "Announcing Artificial Analysis Coding Agent Index v2.0: FrontierCode v1.1 from Cognition replaces DeepSWE, SWE-Atlas-QnA grading is revised, and Claude Opus 5.5 in Claude Code leads at 61.7\n\nToday we are launching v2.0 of the Coding Agent Index. The Index evaluates models together with their agent harnesses, now across 290 tasks covering software engineering, terminal use, and repository Q&A, with the three benchmarks weighted equally."
-        }
-      ],
-      "reaction": "Community discusses the stricter FrontierCode grading (maintainer-merge standard) causing score drops, with Claude Code + Opus 5.5 remaining the leader and cost-frontier configurations highlighted."
-    },
-    {
-      "id": 4,
-      "title": "Claude Code v2.1.310 released with Monitor tool and reliability fixes",
+      "title": "Claude Code v2.1.310 adds Monitor tool and multiple reliability fixes",
       "category": "feature_update",
       "event_time": "2026-10-23T23:39:00Z",
       "primary_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.310",
@@ -91,47 +72,52 @@
         "Added the Monitor tool and plugin monitors on Bedrock, Vertex, and Foundry, and when telemetry or nonessential traffic is disabled; long foreground sleeps are now blocked there too.",
         "Fixed requests failing behind some gateways and compatible servers that reject the effort-2025-11-24 beta value or mid-conversation system messages; Claude Code now retries without them.",
         "Fixed compaction after a \"Prompt is too long\" error keeping too much of a conversation with dense text, such as base64 or SVG, so the next request could fail again.",
-        "Improved auto mode's prompt before the first read outside the working directories."
+        "Improved auto mode's prompt before the first read outside the working directories: it now says when blocking those reads makes shell commands ask for permission."
       ],
       "x_posts": [],
-      "reaction": null
+      "why_hot": "Routine but relevant release for a leading coding agent, adding monitoring and fixing reliability issues in non-interactive and cloud sessions.",
+      "reaction": null,
+      "confidence": "medium"
+    },
+    {
+      "id": 4,
+      "title": "Cloudflare security-audit skill trends as AI bug hunter for coding agents",
+      "category": "tool_launch",
+      "event_time": "2026-10-24T14:00:00Z",
+      "primary_url": "https://github.com/cloudflare/security-audit-skill",
+      "facts": [
+        "A coding-agent skill that turns your agent into a security auditor. It orchestrates isolated agents through reconnaissance, coverage-led hunting, candidate validation, structured output, independent record verification, and target-neutral reporting.",
+        "This is the skill that seeded Cloudflare's vulnerability discovery harness.",
+        "Install with: npx skills add https://github.com/cloudflare/security-audit-skill --skill security-audit"
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/NikandrSurkov/status/2114029567249879156",
+          "author": "@NikandrSurkov",
+          "official": false,
+          "posted_at": "2026-10-24T16:21:40Z",
+          "text": "\ud83d\udee1\ufe0f Cloudflare's AI bug hunter is the #1 repo on GitHub today, and after the week we just had, it's the first thing I'd point at my own code.\n\nIt's a skill called security-audit that runs inside your coding agent. Cloudflare says it's the starting point of the vulnerability harness it now runs on its own code, where it ended up with 7,245 actionable findings, each with a working test and a draft patch.\n\nHow it works:\n- maps your architecture, trust boundaries and every input\n- sends separate hunter agents after each part of the code\n- gives every finding to a fresh agent that tries to disprove it\n- writes a report: confirmed, needs validation, rejected\n\nTwo tips from the README: run it more than once, because a single run found about half of what repeated runs found. And give it a sandbox with no network, otherwise it won't execute your code to confirm a finding."
+        }
+      ],
+      "why_hot": "Trending on GitHub as a practical multi-agent skill for security audits inside existing coding agents, with users highlighting its verification process.",
+      "reaction": "Posters describe the multi-phase approach with independent verification agents and recommend sandboxed runs for confirmation.",
+      "confidence": "medium"
     },
     {
       "id": 5,
-      "title": "GitHub Copilot usage metrics API adds client-level data for tools like OpenCode",
+      "title": "GitHub Copilot usage metrics API adds totals_by_client for tools like OpenCode",
       "category": "feature_update",
       "event_time": "2026-10-23T00:00:00Z",
       "primary_url": "https://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode/",
       "facts": [
-        "The Copilot usage metrics API now reports model usage from more of the tools your developers use with Copilot, including tools like OpenCode that weren\u2019t previously captured in your reports.",
-        "A new totals_by_client array is available in the enterprise, organization, enterprise-user, and organization-user 1-day and 28-day reports.",
-        "Each totals_by_client entry includes client, request_count, session_count, token_usage, and totals_by_model."
-      ],
-      "x_posts": [
-        {
-          "url": "https://x.com/GHchangelog/status/2113782549637955898",
-          "author": "@GHchangelog",
-          "official": true,
-          "posted_at": "2026-10-24T00:00:06Z",
-          "text": "Copilot usage metrics API now includes model usage from more tools like OpenCode in reports.\n\u2022 Adds a totals_by_client array showing request counts, sessions, tokens, & model breakdowns per client\n\nhttps://github.blog/changelog/2026-10-23-usage-metrics-api-adds-usage-from-tools-like-opencode/"
-        }
-      ],
-      "reaction": null
-    },
-    {
-      "id": 6,
-      "title": "Functionize launches MCP server for AI coding agents to run live app tests",
-      "category": "tool_launch",
-      "event_time": "2026-10-23T08:15:00Z",
-      "primary_url": "https://itbrief.co.uk/story/functionize-launches-mcp-server-for-ai-coding-agents",
-      "facts": [
-        "Functionize has released an MCP server that links its testing platform with coding agents including Claude Code, Cursor and GitHub Copilot.",
-        "The product connects Functionize Studio to MCP-compatible clients, allowing users to request a smoke or regression suite in plain language and receive the result in the conversation.",
-        "Studio builds the tests, runs them against the application, and returns details on what failed and why.",
-        "The MCP server is available to existing Functionize Studio customers and trial users."
+        "The Copilot usage metrics API now reports model usage from more of the tools your developers use with Copilot, including tools like OpenCode that weren\u2019t previously captured in your reports. A new totals_by_client array is available in the enterprise, organization, enterprise-user, and organization-user 1-day and 28-day reports.",
+        "Each totals_by_client entry represents one client and includes client, request_count, session_count, token_usage, and totals_by_model.",
+        "More developers now use Copilot as the model provider behind tools outside the IDE. Counting requests on the server closes that gap."
       ],
       "x_posts": [],
-      "reaction": null
+      "why_hot": "Update improves visibility into how Copilot models are used across different client tools and agents.",
+      "reaction": null,
+      "confidence": "high"
     }
   ]
 }
