@@ -1,0 +1,95 @@
+{
+  "schema": "grok-inbox/1",
+  "date": "2026-10-26",
+  "generated_at": "2026-10-26T05:26:00+07:00",
+  "window_hours": 24,
+  "status": "ok",
+  "items": [
+    {
+      "id": 1,
+      "title": "AI Coding Agents Hijacked via Malicious AGENTS.md in Downloads",
+      "category": "discussion",
+      "event_time": "2026-10-25T11:49:00Z",
+      "primary_url": "https://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/",
+      "facts": [
+        "Researchers at Forever Security discovered a malicious AGENTS.md file in a customer's Downloads folder that tricked a coding agent into attempting to install the malicious npm package 'function-color'.",
+        "They reproduced the attack against OpenAI Codex with a 90% success rate using a harmless payload that opened the calculator, and demonstrated a related technique against Claude Code that leaked OAuth tokens and allowed code execution in about 50% of tests.",
+        "A web page can silently download an AGENTS.md file into the Downloads folder in browsers like Chrome, Edge, and Firefox; agents load and follow instructions from files in their working directory by design."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/inorbit01/status/2114401831434715568",
+          "author": "@inorbit01",
+          "official": false,
+          "posted_at": "2026-10-25T17:00:54Z",
+          "text": "A file in your Downloads folder can hijack your AI coding agent.\nForever Security found a planted AGENTS.md that made an agent try to install a malicious npm package. Reproduced on @CodexFX ; a variant hit @claudeai.\nFix: don't run agents from ~/Downloads.\nhttps://www.bleepingcomputer.com/news/security/ai-coding-agents-hijacked-using-agentsmd-file-in-downloads-folder/"
+        },
+        {
+          "url": "https://x.com/willhk1r/status/2114482339367862633",
+          "author": "@willhk1r",
+          "official": false,
+          "posted_at": "2026-10-25T22:20:49Z",
+          "text": "别在 Downloads 里启动 Coding Agent：一个 AGENTS.md 就能让它装恶意包\n\n在 ~/Downloads 里打开 Claude Code 的会话，一家安全公司统计到超过 1300 次。问题就出在这个文件夹。\n\nForever Security 在一个客户电脑上抓到：Coding Agent 想装一个叫 function-color 的恶意 npm 包。顺着查下去，原因不是模型被越狱，而是 ~/Downloads 里躺着一个 AGENTS.md，而那个人恰好把 Downloads 当成了 Agent 的工作目录。\n\n很多人的第一反应是「这是 Codex / Claude Code 的漏洞，等官方修」。这只说对了一半。研究员原话是：没有什么可以给 OpenAI 或 Anthropic 修的，Agent 读取目录里的 AGENTS.md 并照做，本来就是设计功能。\n\n整条链路其实很短：\n1️⃣ 网页可以在不弹窗的情况下把一个名叫 AGENTS.md 的文件下载进 Downloads（Chrome、Edge、Firefox 默认直接存，只给下载提示；Brave 会先让你确认）\n2️⃣ 你在 Downloads 里启动 Agent，让它「帮我整理一下下载的文件」\n3️⃣ Agent 自动加载这个说明文件，用你给它的权限去装包、跑命令、改设置\n4️⃣ 研究员复现：Codex 用无害载荷（打开计算器）成功率 90%；用恶意 CLAUDE.md 把 Claude Code 的 API 流量导到自己的服务器，拿到 OAuth token，大约 50% 的测试里能借此执行代码\n\n我的判断：AGENTS.md / CLAUDE.md 这类文件以后要按「可执行配置」来对待，而不是普通文档。它不是 exe，但 Agent 有 shell 权限时，它写的每一句话都可能变成一条命令。\n\n天天用 Agent 写代码的话，有三条习惯值得马上改：只在具体项目的根目录启动 Agent，不在家目录、Downloads 这种杂物间；陌生仓库里的说明文件先自己读一遍再让 Agent 跟着做；审批提示和沙箱别为了省事全关掉。\n\n真正危险的不是模型变坏，是我们给了它权限，又把它放进了一个谁都能往里扔文件的目录。\n\n#AI #ClaudeCode #Codex #AI编程 #网络安全"
+        }
+      ],
+      "why_hot": "Developers are discussing how a simple markdown file in the Downloads folder can hijack Codex and Claude Code agents because agents trust and follow AGENTS.md or CLAUDE.md by design, turning the folder into an attack surface that browsers can write to silently.",
+      "reaction": "Users noted that the fix is to avoid launching agents from Downloads or home directories and to treat instruction files as executable configurations that need review, with one reply calling Downloads a honeypot.",
+      "confidence": "high"
+    },
+    {
+      "id": 2,
+      "title": "GitHub Promotes Faster Secret Scanning with New Classifier",
+      "category": "feature_update",
+      "event_time": "2026-10-25T22:10:01Z",
+      "primary_url": "https://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/",
+      "facts": [
+        "GitHub's context-aware secret classifier raised repository owner-weighted acceptance by 11.5% and cut median post-push scan execution time by 86% compared to the previous LLM pipeline.",
+        "The new pipeline uses a fine-tuned ModernBERT classifier after regex candidate generation, achieving more than 98% lower serving costs.",
+        "Offline evaluation showed 13% higher precision and 19% higher recall on public traffic."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/github/status/2114479620091171249",
+          "author": "@github",
+          "official": true,
+          "posted_at": "2026-10-25T22:10:01Z",
+          "text": "Faster secret scanning. Less noise. GitHub's classifier raised acceptance by 11.5% and cut median scan time by 86%.\nhttps://github.blog/ai-and-ml/githubs-model-for-secret-detection-finding-more-secrets-with-less-noise/"
+        },
+        {
+          "url": "https://x.com/serxzsz/status/2114480496717807690",
+          "author": "@serxzsz",
+          "official": false,
+          "posted_at": "2026-10-25T22:13:30Z",
+          "text": "86% off the scan time is the number i actually care about. nobody waits on a slow check"
+        }
+      ],
+      "why_hot": "Official GitHub account highlighted the performance gains of their new secret detection classifier, drawing attention to reduced scan times and less noise in alerts for developers.",
+      "reaction": "Replies focused on the practical benefit of the 86% faster scans and the value of fewer false positives that prevent developers from ignoring alerts.",
+      "confidence": "medium"
+    },
+    {
+      "id": 3,
+      "title": "Cursor Updated to Version 3.27.14 with MCP and Workspace Features",
+      "category": "feature_update",
+      "event_time": "2026-10-25T22:12:05Z",
+      "primary_url": null,
+      "facts": [
+        "Cursor has been updated to version 3.27.14.",
+        "Reported additions include asking an MCP server to sign you in when it needs access and continuing from the returned link.",
+        "Also includes connecting GitLab, Bitbucket, or Azure DevOps as the source for a cloud workspace on Mac, and comparing two agent responses in the same turn with tool start times and summary completion."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/blankspeaker/status/2114480140428415296",
+          "author": "@blankspeaker",
+          "official": false,
+          "posted_at": "2026-10-25T22:12:05Z",
+          "text": "SpaceXSI : Cursor has been updated to version 3.27.14\n\nHere are some of the new things they added:\n\n• Ask an MCP server to sign you in when it needs access, then continue from the link it returns.\n• Connect GitLab, Bitbucket, or Azure DevOps as the source for a cloud workspace on your Mac.\n• See a comparison of two agent responses in the same turn, including when each tool started and when a summary finished.\n\nNote: Features mentioned above are AI-generated from changes in flags and strings since the last version. They may or may not be finished or active."
+        }
+      ],
+      "why_hot": "A community account reported a Cursor update with potential new MCP authentication flows and multi-provider cloud workspace support, noting the features were inferred from internal flags.",
+      "reaction": null,
+      "confidence": "low"
+    }
+  ]
+}
