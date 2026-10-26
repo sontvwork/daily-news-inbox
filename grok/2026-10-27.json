@@ -1,0 +1,115 @@
+{
+  "schema": "grok-inbox/1",
+  "date": "2026-10-27",
+  "generated_at": "2026-10-27T05:25:00+07:00",
+  "window_hours": 24,
+  "status": "ok",
+  "items": [
+    {
+      "id": 1,
+      "title": "OpenAI launches GPT-6.1 Terra for ChatGPT Work, Codex, and API",
+      "category": "model_infra",
+      "event_time": "2026-10-26T18:06:27Z",
+      "primary_url": "https://openai.com/index/introducing-gpt-6-1-terra/",
+      "facts": [
+        "GPT-6.1 Terra is a fast, efficient model that combines detailed visual reasoning and precise computer use alongside clearer, more natural writing.",
+        "Its standard API prices are 50% lower than those of GPT-5.6 Terra and GPT-6.1 Sol.",
+        "Starting today, GPT-6.1 Terra is available to all Plus, Pro, Enterprise, and Edu users in ChatGPT Work and Codex. Developers can also access it through the OpenAI API as gpt-6.1-terra.",
+        "Standard API pricing is $1 per million input tokens, $0.05 per million cached input tokens, and $5 per million output tokens.",
+        "At medium reasoning effort on Agents’ Last Exam, GPT-6.1 Terra scores 15 percentage points higher than GPT-5.6 Terra at about one-third the cost. It even performs on par with GPT-6 Astra at only one-tenth its price per token.",
+        "At maximum reasoning effort on Terminal-Bench 4.0, GPT‑6.1 Terra solves 50.3% of tasks, more than double GPT‑5.6 Terra’s published score of 21.5%."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/OpenAI/status/2114780711664398349",
+          "author": "@OpenAI",
+          "official": true,
+          "posted_at": "2026-10-26T18:06:27Z",
+          "text": "GPT-6.1 Terra: delivering fast and capable computer use at a lower price.\n\nGPT-6.1 Terra understands what’s on screen, takes action across apps, writes naturally, and is a more capable model for your whole workday with the efficiency to take on more of it."
+        },
+        {
+          "url": "https://x.com/OpenAIDevs/status/2114780986613682473",
+          "author": "@OpenAIDevs",
+          "official": true,
+          "posted_at": "2026-10-26T18:07:32Z",
+          "text": "GPT-6.1 Terra is also coming to the API and Codex.\n\nUse Terra to build apps and agents that interpret images, navigate software, and take action. You get fast computer use at a lower cost, ideal for high-volume workflows."
+        },
+        {
+          "url": "https://x.com/Solvairo/status/2114783165747175806",
+          "author": "@Solvairo",
+          "official": false,
+          "posted_at": "2026-10-26T18:16:12Z",
+          "text": "Dude, we need a model better than Opus 5.5. No one cares about it being faster or cheaper.\n\nI barely touch my codex sub because there’s no real use for it anymore"
+        }
+      ],
+      "why_hot": "OpenAI announced GPT-6.1 Terra as a lower-cost model strong on computer use and visual tasks, available in Codex and the API for building agents and automating workflows.",
+      "reaction": "One user replied that a model better than Opus 5.5 is needed and that they barely use their Codex subscription because there is no real use for it anymore.",
+      "confidence": "high"
+    },
+    {
+      "id": 2,
+      "title": "Cursor announces Agent SDK for defining agents as code",
+      "category": "tool_launch",
+      "event_time": "2026-10-26T18:58:07Z",
+      "primary_url": "https://cursor.com/docs/agent-sdk",
+      "facts": [
+        "The Agent SDK is now available.",
+        "Define agents as code, with prompts in Markdown and tools in TypeScript.",
+        "Deploy them on our hosted infrastructure, or run them on your own.",
+        "Built-in evals let you measure every change and make your agents better over time."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/cursor_ai/status/2114793714531102901",
+          "author": "@cursor_ai",
+          "official": true,
+          "posted_at": "2026-10-26T18:58:07Z",
+          "text": "The Agent SDK is now available.\n\nDefine agents as code, with prompts in Markdown and tools in TypeScript. Deploy them on our hosted infrastructure, or run them on your own.\n\nBuilt-in evals let you measure every change and make your agents better over time."
+        },
+        {
+          "url": "https://x.com/cursor_ai/status/2114793726602285211",
+          "author": "@cursor_ai",
+          "official": true,
+          "posted_at": "2026-10-26T18:58:10Z",
+          "text": "Read the docs: https://cursor.com/docs/agent-sdk"
+        }
+      ],
+      "why_hot": "Cursor posted that the Agent SDK is available so developers can define agents as versioned code with Markdown prompts and TypeScript tools, deploy them, and use built-in evals.",
+      "reaction": null,
+      "confidence": "high"
+    },
+    {
+      "id": 3,
+      "title": "Claude Code 2.1.311 adds self-hosted runner idle options and other fixes",
+      "category": "feature_update",
+      "event_time": "2026-10-26T20:00:00Z",
+      "primary_url": "https://code.claude.com/docs/en/changelog",
+      "facts": [
+        "Added --hold-idle-file and --max-hold-min to self-hosted-runner, to keep an idle session while your host reports processes it left running",
+        "Added a tip for the Explanatory output style, shown when you ask Claude for explanations",
+        "[VSCode] Added syntax coloring to code blocks in Claude’s replies, in light, dark and high contrast dark themes",
+        "Changed ultrathink in the interactive terminal to run its turn at xhigh effort on Opus 5.5, Sonnet 5.5, Haiku 5.5 and Fable 5.1 through Anthropic’s API; typed while Claude is working, it raises the rest of that turn",
+        "Fixed standard-context sessions stopping with “Usage credits required for 1M context” when a request ran over 200K tokens; Claude Code now compacts the conversation and continues"
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/ClaudeCodeLog/status/2114807047103373503",
+          "author": "@ClaudeCodeLog",
+          "official": false,
+          "posted_at": "2026-10-26T19:51:05Z",
+          "text": "Claude Code 2.1.311 is about to be released\n#cccnext"
+        },
+        {
+          "url": "https://x.com/agentreleases/status/2114843828226343071",
+          "author": "@agentreleases",
+          "official": false,
+          "posted_at": "2026-10-26T22:17:15Z",
+          "text": "🟣🚀 【Claude】Claude Code 2.1.311 发布\n\n🔧 self-hosted-runner 新增 --hold-idle-file 和 --max-hold-min，可在主机报告残留进程时保持空闲会话\n💬 Explanatory 输出风格新增提示，在你向 Claude 请求解释时显示"
+        }
+      ],
+      "why_hot": "Trackers posted about the Claude Code 2.1.311 release, noting additions for self-hosted-runner idle sessions and an Explanatory output style tip.",
+      "reaction": null,
+      "confidence": "medium"
+    }
+  ]
+}
