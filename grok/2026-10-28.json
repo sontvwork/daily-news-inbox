@@ -1,0 +1,152 @@
+{
+  "schema": "grok-inbox/2",
+  "date": "2026-10-28",
+  "generated_at": "2026-10-28T05:25:00+07:00",
+  "window_hours": 24,
+  "status": "ok",
+  "items": [
+    {
+      "id": 1,
+      "title": "Claude Code v2.1.312 adds OIDC claims and safer large-file handling",
+      "category": "feature_update",
+      "event_time": "2026-10-27T20:24:00Z",
+      "primary_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.312",
+      "facts": [
+        "Added oidc.user_id_claim to the Claude apps gateway, to identify people by an id_token claim other than sub, such as Microsoft Entra ID's oid",
+        "Fixed Claude overwriting a very large CLAUDE.md, rules file or @-included file in a subdirectory after seeing only its start; Write now asks Claude to read it all or edit in place",
+        "Changed prompt and agent hooks to run at most 24 at a time per session, sub-agents included"
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/claude_news/status/2115207416258175128",
+          "author": "@claude_news",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Codex CLI 0.165.0 adds Vertex AI provider and GPT-6.1 Terra support",
+      "category": "feature_update",
+      "event_time": "2026-10-27T20:09:00Z",
+      "primary_url": "https://github.com/openai/codex/releases/tag/rust-v0.165.0",
+      "facts": [
+        "Added a built-in Google Cloud Vertex AI provider, configured with model_provider = \"gcp\"",
+        "Added GPT-6.1 Terra to the model catalogs",
+        "Enabled memory v2 by default for fresh profiles and added support for importing external-agent memories into it"
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/CodexReleases/status/2115180124698239037",
+          "author": "@CodexReleases",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "SuperPlane 1.0 launches open-source AI software factory for engineering teams",
+      "category": "tool_launch",
+      "event_time": "2026-10-27T11:08:38Z",
+      "primary_url": "https://superplane.com/blog/superplane-1-0-the-open-source-software-factory-for-teams/",
+      "facts": [
+        "SuperPlane is an open source, model-agnostic software factory for engineering teams",
+        "It takes coding agents from ticket to verified, merged PR, with shared standards and full visibility",
+        "Last month, 52% of the pull requests our team merged were automated through SuperPlane"
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/darkofabijan/status/2115037955480048100",
+          "author": "@darkofabijan",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "GitHub Copilot CLI 1.0.104 makes Assisted Permissions generally available",
+      "category": "feature_update",
+      "event_time": "2026-10-27T02:15:00Z",
+      "primary_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.104",
+      "facts": [
+        "Assisted Permissions are available without enabling experimental mode",
+        "Interactive and SDK Autopilot sessions keep waiting for attached background tasks instead of stopping after COPILOT_TASK_WAIT_TIMEOUT_SECONDS",
+        "Managed model \"fusion\" now starts sessions on Auto and applies fusionTier settings"
+      ],
+      "x_posts": []
+    },
+    {
+      "id": 5,
+      "title": "Gemini CLI v0.66.0 ships UI fixes and Gemini 4 optimization note",
+      "category": "feature_update",
+      "event_time": "2026-10-27T20:26:00Z",
+      "primary_url": "https://github.com/google-gemini/gemini-cli/releases/tag/v0.66.0",
+      "facts": [
+        "fix(ui): implement synchronized output and isolate spinner rendering",
+        "fix(core): harden SKILL.md frontmatter parsing for single-line descriptions",
+        "Add Banner about Gemini CLI not being optimized for Gemini 4"
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/Agent_Jace/status/2115189238949871761",
+          "author": "@Agent_Jace",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Anthropic expands Claude access for US governments at 40% discount",
+      "category": "discussion",
+      "event_time": "2026-10-27T22:20:23Z",
+      "primary_url": "https://www.anthropic.com/news/expanding-partnership-gsa",
+      "facts": [
+        "We're expanding our partnership with @USGSA",
+        "Under a new OneGov agreement, we are bringing Claude to federal, state, local, tribal, and territorial governments at 40% off"
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/AnthropicAI/status/2115207004293853358",
+          "author": "@AnthropicAI",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Google begins rolling out Gemini 4 Argon to Antigravity IDE users",
+      "category": "model_infra",
+      "event_time": "2026-10-27T00:36:42Z",
+      "primary_url": null,
+      "facts": [
+        "We are starting to slowly roll out Gemini 4 Argon to Antigravity IDE users",
+        "Be on the lookout for the update in the next 24hr"
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/rodydavis/status/2114878923360342066",
+          "author": "@rodydavis",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Claude Code prompt audits logs to find habits burning usage limits",
+      "category": "discussion",
+      "event_time": "2026-10-27T18:18:11Z",
+      "primary_url": null,
+      "facts": [
+        "Claude Code can now audit its own logs and find the 3 habits burning your usage limit, for about 0.2% of our week",
+        "The usual version overcounted our usage 2.4x and missed a third of it. This one fixes both"
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/LimestoneHQ/status/2115146054408761682",
+          "author": "@LimestoneHQ",
+          "official": false
+        }
+      ]
+    }
+  ]
+}
