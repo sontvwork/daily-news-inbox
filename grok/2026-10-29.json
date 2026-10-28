@@ -1,0 +1,126 @@
+{
+  "schema": "grok-inbox/2",
+  "date": "2026-10-29",
+  "generated_at": "2026-10-29T05:25:00+07:00",
+  "window_hours": 24,
+  "status": "ok",
+  "items": [
+    {
+      "id": 1,
+      "title": "GitHub Copilot Fusion generally available for multi-model orchestration",
+      "category": "feature_update",
+      "event_time": "2026-10-28T16:25:59Z",
+      "primary_url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/",
+      "facts": [
+        "GitHub Copilot Fusion is generally available.",
+        "In the Artificial Analysis Coding Agent Index, Copilot Fusion Max scored 60, within two points of Claude Code with Opus 5.5 Max.",
+        "It delivered that result at about half the average API cost per task, using about half as many tokens and taking about 40% less time per task."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/github/status/2115480207469560109", "author": "@github", "official": true},
+        {"url": "https://x.com/github/status/2115500310865301921", "author": "@github", "official": true}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "GitHub Agentic Workflows generally available",
+      "category": "tool_launch",
+      "event_time": "2026-10-28T16:15:39Z",
+      "primary_url": "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available/",
+      "facts": [
+        "GitHub Agentic Workflows, an open source project from GitHub Next, is now generally available.",
+        "With agentic workflows, you can automate reasoning-based tasks like issue triage, CI failure analysis, documentation updates, and test writing by using coding agents inside GitHub Actions.",
+        "Define your automation in natural language Markdown files, and GitHub Agentic Workflows compiles them into standard Actions YAML."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/GHchangelog/status/2115477605365252488", "author": "@GHchangelog", "official": true}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Replit releases ViBench 2.0 long-horizon software benchmark",
+      "category": "trend",
+      "event_time": "2026-10-28T21:15:42Z",
+      "primary_url": "https://replit.com/blog/vibench-2-long-horizon-software-benchmark",
+      "facts": [
+        "Today we’re releasing ViBench 2.0, a benchmark for long-horizon software development.",
+        "ViBench 2.0 has seventeen products, 241 feature requests, and 544 test plans.",
+        "The best models, GPT-6.1 Sol, GPT-6 Astra, and Opus 5.5, pass all test plans in only 49-65% of their builds."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/Replit/status/2115553116942975013", "author": "@Replit", "official": true},
+        {"url": "https://x.com/amasad/status/2115565072734888447", "author": "@amasad", "official": true}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "GitHub announces Copilot Automations",
+      "category": "feature_update",
+      "event_time": "2026-10-28T17:45:54Z",
+      "primary_url": "https://github.blog/news-insights/company-news/github-universe-2026-evolving-every-layer-of-the-stack/",
+      "facts": [
+        "Every developer has work they shouldn’t have to repeat. Define the job once, then run it on demand, on a schedule, or in response to activity in GitHub or a connected service."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/github/status/2115500319346245661", "author": "@github", "official": true}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "GitHub introduces Copilot Projects",
+      "category": "feature_update",
+      "event_time": "2026-10-28T17:45:53Z",
+      "primary_url": "https://github.blog/changelog/2026-10-28-github-copilot-app-universe-releases/",
+      "facts": [
+        "Copilot Projects gives you one place to see where the work stands and direct what Copilot takes on next.",
+        "Copilot Projects are now in public preview."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/github/status/2115500312966619619", "author": "@github", "official": true}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Artificial Analysis benchmarks Copilot Fusion Max near Opus 5.5 at half cost",
+      "category": "discussion",
+      "event_time": "2026-10-28T16:14:44Z",
+      "primary_url": null,
+      "facts": [
+        "GitHub has released Copilot Fusion in GitHub Copilot, which orchestrates between Anthropic and OpenAI models.",
+        "It scores 2 points below Opus 5.5 in Claude Code at half the Cost per Task in the Coding Agent Index",
+        "Copilot Fusion in GitHub Copilot costs $5.59 per task, versus $11.42 for Claude Code with Opus 5.5 (max)."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/ArtificialAnlys/status/2115477376981508419", "author": "@ArtificialAnlys", "official": false}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Claude Code 2.1.312 released with OIDC and click-to-send improvements",
+      "category": "feature_update",
+      "event_time": "2026-10-27T20:24:00Z",
+      "primary_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.312",
+      "facts": [
+        "Added oidc.user_id_claim to the Claude apps gateway, to identify people by an id_token claim other than sub, such as Microsoft Entra ID's oid",
+        "Added click to send: in fullscreen, clicking the \"to send now\" hint under a queued message sends it right away, as its key does"
+      ],
+      "x_posts": [
+        {"url": "https://x.com/akivajp/status/2115553838141002004", "author": "@akivajp", "official": false}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Runway Dev plugin available for OpenAI Codex",
+      "category": "tool_launch",
+      "event_time": "2026-10-28T18:27:54Z",
+      "primary_url": null,
+      "facts": [
+        "Runway Dev is now on Codex",
+        "One plugin install gives Codex everything it needs to build Runway’s API into your app."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/runwayml/status/2115510886144282927", "author": "@runwayml", "official": true}
+      ]
+    }
+  ]
+}
