@@ -1,0 +1,133 @@
+{
+  "schema": "grok-inbox/2",
+  "date": "2026-10-30",
+  "generated_at": "2026-10-30T05:25:00+07:00",
+  "window_hours": 24,
+  "status": "ok",
+  "items": [
+    {
+      "id": 1,
+      "title": "Google Jules AI coding agent winding down, learnings moving to Antigravity",
+      "category": "feature_update",
+      "event_time": "2026-10-29T19:09:24Z",
+      "primary_url": "https://jules.google/docs/changelog/",
+      "facts": [
+        "Jules will wind down on December 31, 2026.",
+        "Users have until November 11, 2026 to continue finishing up sessions.",
+        "After November 11, 2026, Jules will be turned to read-only until the end of the year."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/julesagent/status/2115883717705261283",
+          "author": "@julesagent",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Google Antigravity launches Plugin Marketplace for discovering and installing plugins",
+      "category": "tool_launch",
+      "event_time": "2026-10-29T17:04:09Z",
+      "primary_url": "https://antigravity.google/blog/plugin-marketplace-in-antigravity/",
+      "facts": [
+        "Today, we are launching the Plugin Marketplace in Antigravity, a centralized directory for discovering and installing third-party and Google-built plugins across the Antigravity App and the Antigravity CLI.",
+        "The Plugin Marketplace packages these primitives into verified, shareable bundles that you can browse by category and install in a click.",
+        "The Plugin Marketplace in Antigravity is rolling out today across the Antigravity App and the Antigravity CLI."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/antigravity/status/2115852199502684342",
+          "author": "@antigravity",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "OpenAI Codex CLI 0.166.0 adds keyboard transcript controls and GPT-6.1 Terra",
+      "category": "feature_update",
+      "event_time": "2026-10-29T19:47:00Z",
+      "primary_url": "https://github.com/openai/codex/releases/tag/rust-v0.166.0",
+      "facts": [
+        "Added keyboard-driven transcript selection with word, line, and page motions, integrated search, and configurable shortcuts.",
+        "Added GPT-6.1 Terra to the bundled, Vertex AI, and Amazon Bedrock model catalogs.",
+        "Added codex doctor --network-only for focused configuration, connectivity, and WebSocket diagnostics."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/Codex_Changelog/status/2115898620180660732",
+          "author": "@Codex_Changelog",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "GitHub Copilot Fusion generally available for multi-model orchestration",
+      "category": "feature_update",
+      "event_time": "2026-10-28T16:16:40Z",
+      "primary_url": "https://github.blog/changelog/2026-10-28-route-and-orchestrate-models-with-github-copilot-fusion/",
+      "facts": [
+        "GitHub Copilot Fusion is generally available.",
+        "Instead of picking a model for each task, choose Copilot Fusion and let Copilot intelligently route and orchestrate which models it uses for you.",
+        "In the Artificial Analysis Coding Agent Index, Copilot Fusion Max scored 60, within two points of Claude Code with Opus 5.5 Max."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/GHchangelog/status/2115477860588655073",
+          "author": "@GHchangelog",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "GitHub Agentic Workflows reaches general availability",
+      "category": "feature_update",
+      "event_time": "2026-10-28T16:15:39Z",
+      "primary_url": "https://github.blog/changelog/2026-10-28-github-agentic-workflows-generally-available/",
+      "facts": [
+        "GitHub Agentic Workflows, an open source project from GitHub Next, is now generally available.",
+        "With agentic workflows, you can automate reasoning-based tasks like issue triage, CI failure analysis, documentation updates, and test writing by using coding agents inside GitHub Actions.",
+        "Define your automation in natural language Markdown files, and GitHub Agentic Workflows compiles them into standard Actions YAML."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/GHchangelog/status/2115477605365252488",
+          "author": "@GHchangelog",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Hidden disclaimer hints at shared usage limits for ChatGPT and Codex starting December",
+      "category": "discussion",
+      "event_time": "2026-10-29T22:23:56Z",
+      "primary_url": null,
+      "facts": [
+        "A new hidden checkout disclaimer says: Starting in December, plan usage will have a shared limit across all of ChatGPT and Codex."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/Mr_Salio/status/2115932674216853605",
+          "author": "@Mr_Salio",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "OpenCode releases v2.2.1 and v2.2.2 with goal tracking and image generation",
+      "category": "feature_update",
+      "event_time": "2026-10-29T00:00:00Z",
+      "primary_url": "https://opencode.ai/changelog",
+      "facts": [
+        "Run /goal <objective> in the TUI or Desktop to let the session continue until a reviewer confirms the objective is met.",
+        "Enable experimental.image_generate to let agents create or edit images with the new image_generate tool."
+      ],
+      "x_posts": []
+    }
+  ]
+}
