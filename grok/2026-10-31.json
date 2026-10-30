@@ -1,0 +1,133 @@
+{
+  "schema": "grok-inbox/2",
+  "date": "2026-10-31",
+  "generated_at": "2026-10-31T05:25:00+07:00",
+  "window_hours": 24,
+  "status": "ok",
+  "items": [
+    {
+      "id": 1,
+      "title": "Cursor marketplace served malicious Claude Code extension to up to 5,000 users",
+      "category": "discussion",
+      "event_time": "2026-10-30T07:46:39Z",
+      "primary_url": "https://cursor.com/blog/claude-code-extension-security-notice",
+      "facts": [
+        "A maliciously modified version of the Anthropic.claude-code extension (versions 2.1.312 and 2.1.313 for Windows and MacOS) was available in the Cursor VS Code Extension Marketplace between about 2:27am PT and 1:35pm PT on October 29.",
+        "The extension was not developed by Anthropic and attempted to install a persistent SSH backdoor while collecting host and user information.",
+        "Cursor removed the malicious version, shut down the marketplace as a precaution, rebuilt it, and stated the incident impacted at most 5,000 users."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/cursor_ai/status/2116074289053175808",
+          "author": "@cursor_ai",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Anthropic renames Max plans to Max and Ultra, removes 5-hour limit for verified Ultra accounts",
+      "category": "feature_update",
+      "event_time": "2026-10-30T17:29:07Z",
+      "primary_url": null,
+      "facts": [
+        "Max 5x is renamed to Max and remains $100/month; Max 20x is renamed to Ultra and remains $200/month.",
+        "The 5-hour limit is being removed for verified Ultra accounts, starting with most existing subscribers; newer accounts keep a temporary limit until verified.",
+        "Weekly limits remain unchanged."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/claudeai/status/2116220869479428500",
+          "author": "@claudeai",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Claude Code v2.1.314 adds write restrictions outside working directories and idle compaction in VS Code",
+      "category": "feature_update",
+      "event_time": "2026-10-30T01:06:00Z",
+      "primary_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314",
+      "facts": [
+        "Added permissions.blockWritesOutsideWorkingDirectories so that Write, Edit and NotebookEdit refuse paths outside the working directories in every permission mode.",
+        "Added idle compaction to VS Code and Claude Desktop's Code tab: a 200K+ token conversation left idle is summarized for use on the next message if the prompt cache has expired."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/ZST_WIP/status/2116292847284720050",
+          "author": "@ZST_WIP",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Codex CLI 0.166.0 adds keyboard transcript navigation and GPT-6.1 Terra model support",
+      "category": "feature_update",
+      "event_time": "2026-10-29T19:47:00Z",
+      "primary_url": "https://github.com/openai/codex/releases/tag/rust-v0.166.0",
+      "facts": [
+        "Added keyboard-driven transcript selection with word, line, and page motions, integrated search, and configurable shortcuts.",
+        "Added GPT-6.1 Terra to the bundled, Vertex AI, and Amazon Bedrock model catalogs.",
+        "Added codex queue --resume to resume unloaded threads after queueing a message and codex doctor --network-only for diagnostics."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/CodexReleases/status/2115939721365127576",
+          "author": "@CodexReleases",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "VS Code 1.144 centers on Agents window for managing AI agents across workspaces",
+      "category": "feature_update",
+      "event_time": "2026-10-28T20:00:00Z",
+      "primary_url": "https://code.visualstudio.com/updates/v1_144",
+      "facts": [
+        "The Agents window lets you manage your agents across workspaces and environments from a single interface.",
+        "By default, agents are now powered by the Copilot harness.",
+        "New features include image generation in chat (preview) and experimental computer use letting agents work in desktop apps."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/alokkmohan/status/2116053084333805628",
+          "author": "@alokkmohan",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "OpenCode v2.2.4 adds persistent desktop terminals and experimental artifacts",
+      "category": "feature_update",
+      "event_time": "2026-10-30T00:00:00Z",
+      "primary_url": "https://opencode.ai/changelog",
+      "facts": [
+        "Desktop terminals now belong to the session, survive server restarts with their scrollback, and stay synchronized with the TUI and other windows.",
+        "Enable experimental artifacts in opencode.json to let agents publish, update, and serve HTML or static artifacts."
+      ],
+      "x_posts": []
+    },
+    {
+      "id": 7,
+      "title": "Community discussion on GPT models appearing in Google Cloud quotas for potential Antigravity support",
+      "category": "discussion",
+      "event_time": "2026-10-30T21:09:54Z",
+      "primary_url": null,
+      "facts": [
+        "GPT models recently appeared in the Quotas page in the Google Cloud Console.",
+        "The Antigravity lead says next week is a big shipping week."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/AiBattle_/status/2116276433676824710",
+          "author": "@AiBattle_",
+          "official": false
+        }
+      ]
+    }
+  ]
+}
