@@ -1,0 +1,126 @@
+{
+  "schema": "grok-inbox/2",
+  "date": "2026-11-01",
+  "generated_at": "2026-11-01T05:25:00+07:00",
+  "window_hours": 24,
+  "status": "ok",
+  "items": [
+    {
+      "id": 1,
+      "title": "OpenAI to merge ChatGPT and Codex usage limits starting December",
+      "category": "feature_update",
+      "event_time": "2026-10-31T16:34:00Z",
+      "primary_url": "https://cryptobriefing.com/openai-unifies-chatgpt-codex-token-allowance/",
+      "facts": [
+        "Starting in December, ChatGPT and Codex will share a single token allowance for subscribers on the Plus, Pro, and Business plans.",
+        "Usage is measured in tokens, so bigger models and harder tasks burn more.",
+        "Instant chat doesn't count against it. Combined remaining usage and reset times will show in Settings > Usage."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/Angaisb_/status/2116618129358897599", "author": "@Angaisb_", "official": false},
+        {"url": "https://x.com/CodexUpdate/status/2116618129358897599", "author": "@CodexUpdate", "official": false}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Anthropic renames Claude Max 5x to Max and Max 20x to Ultra, removes 5-hour limit for verified Ultra",
+      "category": "feature_update",
+      "event_time": "2026-10-30T17:29:00Z",
+      "primary_url": "https://www.theverge.com/ai-artificial-intelligence/1023576/max-ultra-claude",
+      "facts": [
+        "Anthropic is renaming its Claude Max plans. The Max 5x plan is now just Max, while the Max 20x plan is Ultra.",
+        "The prices for the plans stay the same: $100 per month for Max, $200 per month for Ultra.",
+        "We’re also removing the 5-hour limit for verified Ultra accounts, starting today with most existing subscribers. Weekly limits remain unchanged."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/claudeai/status/2116220869479428500", "author": "@claudeai", "official": true}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Claude Code v2.1.316 adds subagent effort control and deprecates Opus 4.8 fast mode",
+      "category": "feature_update",
+      "event_time": "2026-10-31T01:01:00Z",
+      "primary_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
+      "facts": [
+        "Added CLAUDE_CODE_SUBAGENT_EFFORT to set the effort level subagents run at when nothing else names one, instead of inheriting the session's.",
+        "Deprecated fast mode for Opus 4.8 as of October 30, 2026; it will be removed on November 30, 2026. After removal, fast mode requests on Opus 4.8 return an error and do not fall back to standard Opus 4.8. Migrate to Opus 5.5 to keep the speedup.",
+        "Added CLAUDE_CODE_DISABLE_ULTRATHINK, which turns the ultrathink keyword off."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/ZST_WIP/status/2116651466886881783", "author": "@ZST_WIP", "official": false}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Vercel Labs launches agent-desktop for computer use by coding agents via accessibility trees",
+      "category": "tool_launch",
+      "event_time": "2026-10-31T00:15:00Z",
+      "primary_url": "https://github.com/vercel-labs/agent-desktop",
+      "facts": [
+        "agent-desktop reads each app through the operating system’s accessibility tree, not through screenshots. An agent gets a JSON snapshot with a ref for every element it can act on.",
+        "It works on macOS, Windows and Linux.",
+        "Runs in the background while you keep working. Agents use your computer in parallel, each with its own cursor."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/ctatedev/status/2116323148706771302", "author": "@ctatedev", "official": false},
+        {"url": "https://x.com/mdlahfir/status/2116316228046500348", "author": "@mdlahfir", "official": false}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Cognizant forms OpenAI Frontier Capability Group with over 25,000 professionals focused on Codex",
+      "category": "adoption_survey",
+      "event_time": "2026-10-30T10:00:00Z",
+      "primary_url": "https://www.prnewswire.com/news-releases/cognizant-commits-more-than-25-000-professionals-to-openai-delivery-as-enterprises-move-frontier-ai-into-production-302924550.html",
+      "facts": [
+        "Cognizant's new OpenAI Frontier Capability Group brings more than 25,000 professionals together in a global OpenAI delivery organization.",
+        "The group will initially focus on three areas: AI-native software engineering with Codex, application modernization and agentic customer operations.",
+        "More than 21,000 associates have earned 40,000+ OpenAI badges."
+      ],
+      "x_posts": []
+    },
+    {
+      "id": 6,
+      "title": "OpenCode v2.2.3 adds Claude Agent provider that uses Claude Code login and models",
+      "category": "feature_update",
+      "event_time": "2026-10-30T00:00:00Z",
+      "primary_url": "https://opencode.ai/changelog",
+      "facts": [
+        "Use Claude Code in OpenCode: Install Claude Code, run claude auth login, then select Claude Agent in /connect to use your Claude Code login and models.",
+        "Streaming replies and long conversations in Desktop now do much less rendering work."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/bludr5/status/2116656786090729576", "author": "@bludr5", "official": false}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Gemini app for Mac adds switch between chatting and local coding with Antigravity",
+      "category": "feature_update",
+      "event_time": "2026-10-30T23:04:00Z",
+      "primary_url": null,
+      "facts": [
+        "Switch between chatting and coding with Google Antigravity in the Gemini app for Mac.",
+        "Jump straight from your chat into a dedicated local coding environment to build, run, and debug software, prototype interactive 3D games, and automate workflows on your Mac."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/GeminiApp/status/2116305158602936827", "author": "@GeminiApp", "official": true}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Patrick Collison describes agent-driven \"liquid software\" improvements in personal apps",
+      "category": "discussion",
+      "event_time": "2026-10-31T21:02:00Z",
+      "primary_url": null,
+      "facts": [
+        "I'm now building an \"improvements\" feature into all of my personal vibecoded applications: a freeform text input that's hooked up to an agent that yolo implements whatever is submitted.",
+        "Someone else who uses one of the applications I created has already implemented 150 improvements over the course of a few days."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/patrickc/status/2116636967517798672", "author": "@patrickc", "official": false}
+      ]
+    }
+  ]
+}
