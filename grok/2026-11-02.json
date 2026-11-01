@@ -1,0 +1,127 @@
+{
+  "schema": "grok-inbox/2",
+  "date": "2026-11-02",
+  "generated_at": "2026-11-02T05:25:00+07:00",
+  "window_hours": 24,
+  "status": "ok",
+  "items": [
+    {
+      "id": 1,
+      "title": "DeepSeek open-sources dsh-superagent prototype coding agent",
+      "category": "tool_launch",
+      "event_time": "2026-10-31T09:32:00Z",
+      "primary_url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+      "facts": [
+        "dsh-superagent is a proactive coding agent for one GitHub repository, packaged as a bundle for DeepSeek Harness.",
+        "It listens to GitHub and, optionally, Feishu. When someone allowed asks the agent for work, it opens a work item, works on it in its own agent session and directory, and answers in the original conversation, for example with a pull request.",
+        "Research prototype for reference only, not an official DeepSeek product."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/WuRichard_/status/2117018793683599430",
+          "author": "@WuRichard_",
+          "official": false
+        },
+        {
+          "url": "https://x.com/CMichelW/status/2117019206189265182",
+          "author": "@CMichelW",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Claude Code 2.1.316 adds subagent effort control and deprecates Opus 4.8 fast mode",
+      "category": "feature_update",
+      "event_time": "2026-10-31T01:01:00Z",
+      "primary_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.316",
+      "facts": [
+        "Added CLAUDE_CODE_SUBAGENT_EFFORT to set the effort level subagents run at when nothing else names one, instead of inheriting the session's.",
+        "Added CLAUDE_CODE_DISABLE_ULTRATHINK, which turns the ultrathink keyword off.",
+        "Deprecated fast mode for Opus 4.8 as of October 30, 2026; it will be removed on November 30, 2026."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/EMarkosov/status/2117019983712751999",
+          "author": "@EMarkosov",
+          "official": false
+        },
+        {
+          "url": "https://x.com/airlabsfund/status/2117010862187954362",
+          "author": "@airlabsfund",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "OpenAI to share ChatGPT and Codex usage allowance starting in December",
+      "category": "feature_update",
+      "event_time": "2026-10-31T00:00:00Z",
+      "primary_url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+      "facts": [
+        "Starting in December, Plus, Pro, and Business plans' usage allowance will be shared across ChatGPT and Codex as we bring the agentic capabilities of Work into the main ChatGPT experience.",
+        "Your usage for ChatGPT and Codex will be measured in tokens. Instant chat will not draw from your usage.",
+        "You will be able to see your combined remaining usage and reset times in Settings → Usage."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/knightleijun/status/2117016573353582851",
+          "author": "@knightleijun",
+          "official": false
+        },
+        {
+          "url": "https://x.com/hayabusa_823z/status/2117019007400427810",
+          "author": "@hayabusa_823z",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Google winds down Jules AI coding agent, folding learnings into Antigravity",
+      "category": "tool_launch",
+      "event_time": "2026-10-29T19:09:00Z",
+      "primary_url": "https://jules.google/docs/changelog/2026-10-29/",
+      "facts": [
+        "Jules will be winding down. We're working on bringing our learnings from Jules into Antigravity so you get the best of both worlds: autonomous remote background task execution and an agent-first development environment.",
+        "Users have until November 11, 2026 to finish active sessions, after which Jules becomes read-only until the full shutdown on December 31, 2026."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/TommyBeFamous/status/2117010543047491614",
+          "author": "@TommyBeFamous",
+          "official": false
+        },
+        {
+          "url": "https://x.com/cutetoxicguy/status/2116983617909895186",
+          "author": "@cutetoxicguy",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Antigravity launches Plugin Marketplace for skills, MCP, rules and subagents",
+      "category": "feature_update",
+      "event_time": "2026-10-29T17:04:00Z",
+      "primary_url": "https://antigravity.google/blog/plugin-marketplace-in-antigravity/",
+      "facts": [
+        "Today, we are launching the Plugin Marketplace in Antigravity, a centralized directory for discovering and installing third-party and Google-built plugins across the Antigravity App and the Antigravity CLI.",
+        "An Antigravity plugin is a versioned, self-contained bundle defined by a plugin.json manifest that packages up to five extensibility primitives: skills, MCP servers, rules, hooks and custom agents."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/antigravity/status/2115852199502684342",
+          "author": "@antigravity",
+          "official": true
+        },
+        {
+          "url": "https://x.com/kevinhou22/status/2115868520592339102",
+          "author": "@kevinhou22",
+          "official": false
+        }
+      ]
+    }
+  ]
+}
