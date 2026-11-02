@@ -1,0 +1,121 @@
+{
+  "schema": "grok-inbox/2",
+  "date": "2026-11-03",
+  "generated_at": "2026-11-03T05:25:00+07:00",
+  "window_hours": 24,
+  "status": "ok",
+  "items": [
+    {
+      "id": 1,
+      "title": "Anthropic launches message threads public beta for Claude Messages API and Claude Code",
+      "category": "feature_update",
+      "event_time": "2026-11-02T15:00:00Z",
+      "primary_url": "https://claude.com/resources/articles/message-threads",
+      "facts": [
+        "Message threads is now available in public beta on the Claude Platform.",
+        "With message threads on by default for most Claude Code users, requests with 500k to 1M tokens see median TTFT drop by about 35%.",
+        "In long conversations, the median request shrank from about 800 KB to 1.8 KB."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/TekonBurns/status/2117381486999732240", "author": "@TekonBurns", "official": false},
+        {"url": "https://x.com/myjellybot/status/2117380104628113769", "author": "@myjellybot", "official": false},
+        {"url": "https://x.com/runthenumberz/status/2117377016924402103", "author": "@runthenumberz", "official": false}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "OpenAI to merge ChatGPT and Codex usage into shared token allowance starting December",
+      "category": "feature_update",
+      "event_time": "2026-10-31T00:00:00Z",
+      "primary_url": "https://help.openai.com/en/articles/20001625-understanding-chatgpt-and-codex-usage-limits",
+      "facts": [
+        "Starting in December, Plus, Pro, and Business plans' usage allowance will be shared across ChatGPT and Codex.",
+        "Usage is measured in tokens; Instant chat will not draw from the shared allowance."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/AITRACKERTOOL/status/2117377837070180391", "author": "@AITRACKERTOOL", "official": false},
+        {"url": "https://x.com/Nonosam2/status/2117374805376905671", "author": "@Nonosam2", "official": false}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "DeepSeek open-sources dsh-superagent-prototype, a proactive coding agent for GitHub",
+      "category": "tool_launch",
+      "event_time": "2026-10-31T09:32:00Z",
+      "primary_url": "https://github.com/deepseek-ai/dsh-superagent-prototype",
+      "facts": [
+        "dsh-superagent is a proactive coding agent for one GitHub repository, packaged as a bundle for DeepSeek Harness.",
+        "It is a research prototype for reference only, not an official DeepSeek product.",
+        "It listens to GitHub and, optionally, Feishu; when an allowed person asks for work, it opens a work item and answers with a pull request."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/probert_mihai/status/2117377733990793548", "author": "@probert_mihai", "official": false}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Vercel Labs releases agent-desktop CLI for coding agents to control desktop apps via accessibility trees",
+      "category": "tool_launch",
+      "event_time": "2026-10-31T00:00:00Z",
+      "primary_url": "https://github.com/vercel-labs/agent-desktop",
+      "facts": [
+        "agent-desktop is a CLI and C library for macOS, Windows and Linux that lets agents operate desktop apps by reading the OS accessibility tree and acting on refs.",
+        "It stays headless by default so actions do not steal focus or move the pointer."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/LiLensss/status/2117380855119446170", "author": "@LiLensss", "official": false}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Claude Code restores ultrathink keyword to boost effort mid-turn",
+      "category": "feature_update",
+      "event_time": "2026-11-01T20:09:00Z",
+      "primary_url": null,
+      "facts": [
+        "If a task turns out harder than expected, type ultrathink while Claude is working; it raises the effort for the rest of that turn in the terminal on the latest release."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/addyosmani/status/2116986087390486816", "author": "@addyosmani", "official": true}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "ffmpeg-skill gives Claude Code, Codex and Cursor structured FFmpeg tools for local video editing",
+      "category": "tool_launch",
+      "event_time": "2026-11-02T22:19:00Z",
+      "primary_url": null,
+      "facts": [
+        "ffmpeg-skill provides 42 structured FFmpeg tools so agents can edit video locally, remove pauses, add subtitles, and export for platforms without cloud upload."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/cutetoxicguy/status/2117380985289413060", "author": "@cutetoxicguy", "official": false}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Community discusses Claude Code usage health checks and skill optimization",
+      "category": "discussion",
+      "event_time": "2026-11-02T22:24:00Z",
+      "primary_url": null,
+      "facts": [
+        "Users share prompts to audit Claude Code skills, CLAUDE.md vs AGENTS.md loading, and recent session stats without modifying files."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/KimYx0207/status/2117382427035480258", "author": "@KimYx0207", "official": false}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Amplifying Coding Agents Index updates with Nov 2 data showing Claude Code dominance in public PRs",
+      "category": "adoption_survey",
+      "event_time": "2026-11-02T00:00:00Z",
+      "primary_url": "https://amplifying.ai/coding-agents",
+      "facts": [
+        "Latest capture Nov 2, 2026 shows Claude Code leading visible agent output on public GitHub.",
+        "24.9% of all public PRs attributed to agents, up from 16.1% six months ago."
+      ],
+      "x_posts": []
+    }
+  ]
+}
