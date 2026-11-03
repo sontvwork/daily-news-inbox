@@ -1,0 +1,127 @@
+{
+  "schema": "grok-inbox/2",
+  "date": "2026-11-04",
+  "generated_at": "2026-11-04T05:25:33+07:00",
+  "window_hours": 24,
+  "status": "ok",
+  "items": [
+    {
+      "id": 1,
+      "title": "OpenAI details Codex and Astra progress on physical engineering workflows",
+      "category": "case_study",
+      "event_time": "2026-11-03T18:56:45Z",
+      "primary_url": "https://openai.com/index/accelerating-engineering-for-the-physical-world/",
+      "facts": [
+        "Two team members designed this test device with Astra in under a week while working on it as a side project.",
+        "Since February, model usage across our hardware teams, measured in tokens, has grown 23-fold.",
+        "A newer internal model achieved an average score of 0.875 on BenchCAD 2.0, compared with 0.594 for GPT\u20116 Astra at its highest reasoning setting."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/OpenAI/status/2117692475775258785",
+          "author": "@OpenAI",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Claude Code 2.1.317 adds email send check, hook failure blocking, and Read tool changes",
+      "category": "feature_update",
+      "event_time": "2026-11-03T01:25:00Z",
+      "primary_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317",
+      "facts": [
+        "Added a check that asks before a web or shell tool call sends your account email address to the network",
+        "Added onFailure: \"block\" for Agent SDK hook callbacks, so a callback that fails blocks the action instead of letting it run",
+        "Removed the Read tool's \"file unchanged since your last Read\" stub: reading an unchanged file again returns its content"
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/cryptokoala_/status/2117554580188004643",
+          "author": "@cryptokoala_",
+          "official": false
+        },
+        {
+          "url": "https://x.com/alexmichael/status/2117431213564584088",
+          "author": "@alexmichael",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Antigravity CLI ships v1.4.4–v1.4.12 with Auto mode, sandbox hardening, and streaming gains",
+      "category": "feature_update",
+      "event_time": "2026-11-03T02:21:08Z",
+      "primary_url": "https://github.com/google-antigravity/antigravity-cli/blob/main/CHANGELOG.md",
+      "facts": [
+        "Enabled Auto mode on Windows 11 version 24H2 and later for personal Google Accounts, selectable via --mode auto, Agent Mode in /config, Shift+Tab, or Remote Control Settings (Agent remains the default).",
+        "Sandboxed commands can no longer read or modify ~/.docker, ~/.kube, or ~/_netrc unless you grant access explicitly.",
+        "Streaming writes about 70% fewer bytes to the terminal and stays much smoother over slow SSH connections."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/rodydavis/status/2117441920834437387",
+          "author": "@rodydavis",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Community shares experimental Claude Code agent teams setup with Opus lead and Sonnet teammates",
+      "category": "trend",
+      "event_time": "2026-11-03T22:03:56Z",
+      "primary_url": null,
+      "facts": [
+        "Launch Claude Code with experimental agent teams enabled like this: CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS=1 claude --model opus",
+        "Opus 5.5 runs the session, plans the feature and coordinates the work",
+        "Sonnet 5.5 teammates build in parallel: frontend, backend and integration"
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/hayatomaruu/status/2117739581625802835",
+          "author": "@hayatomaruu",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "levelsio reports large cost savings using Claude Code to audit and optimize SaaS spend",
+      "category": "case_study",
+      "event_time": "2026-11-03T19:03:50Z",
+      "primary_url": null,
+      "facts": [
+        "Claude Code helped me to find smart ways to save more money",
+        "switched to better and cheaper video models on Photo AI, video was very expensive and since I didn't update it ever it stayed expensive",
+        "Even including Photo AI, I have now cut my costs by 90% from last year"
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/levelsio/status/2117694259558293692",
+          "author": "@levelsio",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Claude Code team member reflects on product evolution from manual approvals to trusted automation",
+      "category": "discussion",
+      "event_time": "2026-11-03T21:33:33Z",
+      "primary_url": null,
+      "facts": [
+        "When we first launched, most people approved every permission prompt by hand and mostly used Claude to answer questions and write tests.",
+        "Today, the default is trusting Claude's judgment to auto-approve. Claude does large migrations and builds new products."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/_catwu/status/2117731934340337676",
+          "author": "@_catwu",
+          "official": false
+        }
+      ]
+    }
+  ]
+}
