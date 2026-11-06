@@ -1,0 +1,164 @@
+{
+  "schema": "grok-inbox/2",
+  "date": "2026-11-07",
+  "generated_at": "2026-11-07T05:25:00+07:00",
+  "window_hours": 24,
+  "status": "ok",
+  "items": [
+    {
+      "id": 1,
+      "title": "Google Antigravity rolls out Remote Agents for cloud-based agentic coding",
+      "category": "feature_update",
+      "event_time": "2026-11-06T04:00:00Z",
+      "primary_url": "https://antigravity.google/docs/remote-agents/",
+      "facts": [
+        "Antigravity Remote Agents run your agent sessions and tools in an isolated, Google-managed remote environment rather than on your local machine.",
+        "Because execution happens remotely, Remote Agents continue working on long-running tasks and executing commands even when you close your browser, put your laptop to sleep, or switch between desktop and mobile devices.",
+        "Available to Google AI Pro and Google AI Ultra subscribers signed in with a personal Google Account."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/vipinxtwt/status/2118554461362926066", "author": "@vipinxtwt", "official": false},
+        {"url": "https://x.com/ArcyDev/status/2118582059367092664", "author": "@ArcyDev", "official": false}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "JetBrains Air ships in 2026.3 IDEs as agentic workbench with free Junie Lite",
+      "category": "feature_update",
+      "event_time": "2026-11-06T09:50:00Z",
+      "primary_url": "https://www.jetbrains.com/help/air/air-in-ides-overview.html",
+      "facts": [
+        "Air in IDEs is JetBrains’ workspace for coding agents in JetBrains IDEs.",
+        "Starting from version 2026.3, the plugin is bundled with JetBrains IDEs.",
+        "Junie Lite is free with a JetBrains account."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/literallydenis/status/2118642148228608160", "author": "@literallydenis", "official": true},
+        {"url": "https://x.com/jetbrains/status/2118652557434442206", "author": "@jetbrains", "official": true}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Claude Code 2.1.319 adds background MCP tasks and permission controls",
+      "category": "feature_update",
+      "event_time": "2026-11-06T17:15:00Z",
+      "primary_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.319",
+      "facts": [
+        "Added support for MCP tasks in the terminal: when an MCP server runs a tool call as a task, Claude Code moves it to the background right away and tells Claude the result when it finishes.",
+        "Added permissions.denyInsteadOfPrompting setting: a tool call that would wait on a permission prompt is denied and the turn continues, in terminal sessions, subagents and teammates.",
+        "Fixed a sandbox escape when creating a worktree."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/alexmichael/status/2118754191967502441", "author": "@alexmichael", "official": false},
+        {"url": "https://x.com/sunset_evm/status/2118822696415068380", "author": "@sunset_evm", "official": false}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "OpenAI recaps Agents API updates including auto review and automations",
+      "category": "feature_update",
+      "event_time": "2026-11-06T18:09:00Z",
+      "primary_url": "https://developers.openai.com/api/docs/changelog",
+      "facts": [
+        "You can now update the tools in an existing session in the Agents API public beta.",
+        "Added automatic review for eligible Agents API projects.",
+        "Added scheduled automations to the Agents API public beta."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/AzianMike/status/2118767826962207208", "author": "@AzianMike", "official": true}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Mistral expands Studio with managed agents, workflows and apps",
+      "category": "feature_update",
+      "event_time": "2026-11-05T00:00:00Z",
+      "primary_url": "https://mistral.ai/news/build-with-studio/",
+      "facts": [
+        "Today, we’re expanding Studio with managed agents and apps, alongside new capabilities for workflows, enterprise context, agent observability and evaluations.",
+        "In Studio, developers can now build agents that carry out complex, multi-step tasks.",
+        "Developers can equip them with skills that capture the team’s procedures, sandboxes where they can run code, and subagents to delegate parts of a task."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/iveyzen/status/2118665238958485633", "author": "@iveyzen", "official": false},
+        {"url": "https://x.com/ChristopheLams/status/2118696838186545308", "author": "@ChristopheLams", "official": false}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "GitHub Copilot CLI v1.0.107 adds /code command and model support",
+      "category": "feature_update",
+      "event_time": "2026-11-06T20:37:00Z",
+      "primary_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.107",
+      "facts": [
+        "Add /code command to open the current session in VS Code",
+        "Add GPT-6.1 Terra as a selectable model under New models when available to your account",
+        "Rex terminals render inline images using Kitty direct placements."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/GHCopilotLog/status/2118523808852201937", "author": "@GHCopilotLog", "official": false}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "addyosmani/agent-skills packages engineering workflows for coding agents",
+      "category": "trend",
+      "event_time": "2026-11-06T13:51:00Z",
+      "primary_url": "https://github.com/addyosmani/agent-skills",
+      "facts": [
+        "Production-grade engineering skills for AI coding agents.",
+        "Skills encode the workflows, quality gates, and best practices that senior engineers use when building software.",
+        "npx skills add addyosmani/agent-skills"
+      ],
+      "x_posts": [
+        {"url": "https://x.com/read__the__diff/status/2118702749667725416", "author": "@read__the__diff", "official": false}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Syncfusion launches BoldCreate for AI agents across the development workflow",
+      "category": "tool_launch",
+      "event_time": "2026-11-06T15:28:00Z",
+      "primary_url": null,
+      "facts": [
+        "BoldCreate by Syncfusion is now live!",
+        "Bring AI agents into your full development workflow, from planning and building to testing and code review.",
+        "Work in the Desktop App, run tasks from the CLI, or hand work to a Cloud Agent."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/Syncfusion/status/2118727279803253092", "author": "@Syncfusion", "official": true}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Claude Duet adds phone access to Claude Code sessions",
+      "category": "feature_update",
+      "event_time": "2026-11-06T05:28:00Z",
+      "primary_url": null,
+      "facts": [
+        "Claude Code sessions on your phone",
+        "Read along, message and stop them",
+        "Start a new session on your computer"
+      ],
+      "x_posts": [
+        {"url": "https://x.com/mustafaergisi/status/2118576276638515413", "author": "@mustafaergisi", "official": false},
+        {"url": "https://x.com/montanez_marc/status/2118818178335748303", "author": "@montanez_marc", "official": false}
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Discussions highlight process changes needed for AI coding agents",
+      "category": "discussion",
+      "event_time": "2026-11-06T08:35:00Z",
+      "primary_url": null,
+      "facts": [
+        "Most engineering teams added AI coding agents and changed nothing else",
+        "Same review process Same people reviewing Same idea of who owns the code",
+        "The tools landed. The process did not"
+      ],
+      "x_posts": [
+        {"url": "https://x.com/madsonmac/status/2118623255674196175", "author": "@madsonmac", "official": false}
+      ]
+    }
+  ]
+}
