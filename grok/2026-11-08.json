@@ -1,0 +1,111 @@
+{
+  "schema": "grok-inbox/2",
+  "date": "2026-11-08",
+  "generated_at": "2026-11-08T05:25:00+07:00",
+  "window_hours": 24,
+  "status": "ok",
+  "items": [
+    {
+      "id": 1,
+      "title": "GitHub unveils new Git storage architecture supporting 5,000 concurrent agents",
+      "category": "model_infra",
+      "event_time": "2026-11-06T00:00:00Z",
+      "primary_url": "https://github.blog/engineering/architecture-optimization/inside-githubs-new-git-storage-architecture/",
+      "facts": [
+        "Through internal testing, GitHub’s new Git storage architecture supported 5,000 concurrent agents working on a repository, sending 7,200 pushes per second, all while serving read traffic with consistently low latency.",
+        "The architecture is named Project Rubicon and decouples storage from compute, with Git objects in Azure Blob Storage and references managed by Ref-CAS.",
+        "It minimizes coordination to only reference updates, allowing independent scaling of reads and writes."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/github/status/2118830274431873379", "author": "@github", "official": true},
+        {"url": "https://x.com/Ngorovitch/status/2119115666498130137", "author": "@Ngorovitch", "official": false}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Google Antigravity 2.29 adds Remote Agents and Gemini Live Voice Mode",
+      "category": "feature_update",
+      "event_time": "2026-11-06T00:00:00Z",
+      "primary_url": "https://antigravity.google/docs/changelog/",
+      "facts": [
+        "Antigravity 2.29 adds Remote Agents that run conversations in the cloud instead of on your computer, rolling out to Google AI Ultra and Pro subscribers, and can be opened at antigravity.google.com/remote.",
+        "Voice mode, enabled by Gemini Live, lets you talk to Antigravity and hand requests to the agent by voice.",
+        "Remote Agents continue working on long-running tasks even when you close your browser or put your laptop to sleep."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/hserry/status/2119176620074508598", "author": "@hserry", "official": false}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Cursor introduces Build Live Apps for cloud agents to create and host web apps",
+      "category": "feature_update",
+      "event_time": "2026-11-05T00:00:00Z",
+      "primary_url": "https://cursor.com/changelog/build-live-apps",
+      "facts": [
+        "Agents can now build live apps directly in Cursor and share them with a link; Cursor handles building the app, setting up a database, configuring auth, and deploying it.",
+        "This capability is available on all paid plans with cloud agents enabled.",
+        "Cursor runs security checks before publishing, and nothing goes live before you choose to publish."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/AITRACKERTOOL/status/2119191517420195852", "author": "@AITRACKERTOOL", "official": false}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "GitHub Copilot app Projects coordinate multi-repo agent work",
+      "category": "feature_update",
+      "event_time": "2026-11-07T18:22:00Z",
+      "primary_url": "https://github.blog/changelog/2026-10-28-github-copilot-app-universe-releases/",
+      "facts": [
+        "Projects in the GitHub Copilot app give work one home with its context, agents, and results together; Copilot coordinates the work in the background.",
+        "Start a project, describe what you want to get done, and add context such as repositories; Copilot runs as many agents as the work needs.",
+        "Copilot Projects are now in public preview."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/github/status/2119133311465353675", "author": "@github", "official": true}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Andrej Karpathy one-shots a 47k-video site with Claude Code in 3 minutes",
+      "category": "case_study",
+      "event_time": "2026-11-07T17:07:00Z",
+      "primary_url": null,
+      "facts": [
+        "Andrej Karpathy turned a list of YouTube channels into TristanTube, a site with 47,000 videos and a TV mode, one-shotted with Claude Code in 3 minutes."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/karpathy/status/2119114537442189652", "author": "@karpathy", "official": false}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Study finds AI coding agents follow CLAUDE.md over existing codebase 90% of the time",
+      "category": "adoption_survey",
+      "event_time": "2026-11-07T03:49:00Z",
+      "primary_url": null,
+      "facts": [
+        "A new study of 40 projects found that AI agents ignore the actual codebase 90% of the time to blindly follow old rules in a CLAUDE.md file.",
+        "Adding one sentence 'Prioritize existing code and report conflicts' jumps accuracy to 91%."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/kgauravnm/status/2118913636483645616", "author": "@kgauravnm", "official": false}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Google analysis: coding agents get distracted by TODO comments, adding 70% more steps",
+      "category": "trend",
+      "event_time": "2026-11-07T09:34:00Z",
+      "primary_url": null,
+      "facts": [
+        "Google analyzed 913K+ coding-agent sessions and found 13% of sessions exposed agents to inline TODO comments; in 6% of encounters agents acted on them, 83% of those actions unprompted.",
+        "These detours added +70% more steps, +77% more tokens, and +105% more wait time."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/CodetocashAi/status/2119000622946988049", "author": "@CodetocashAi", "official": false}
+      ]
+    }
+  ]
+}
