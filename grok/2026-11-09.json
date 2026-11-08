@@ -1,0 +1,155 @@
+{
+  "schema": "grok-inbox/2",
+  "date": "2026-11-09",
+  "generated_at": "2026-11-09T05:25:00+07:00",
+  "window_hours": 24,
+  "status": "ok",
+  "items": [
+    {
+      "id": 1,
+      "title": "Claude Duet gains remote control of Claude Code sessions from phone",
+      "category": "feature_update",
+      "event_time": "2026-11-08T03:14:28Z",
+      "primary_url": null,
+      "facts": [
+        "Claude Duet can now control Claude Code that's running on your computer.",
+        "You can control Claude Code running on multiple computers, work on existing sessions, and spin up new sessions.",
+        "It supports real-time voice with Claude Code."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/rileybrown/status/2119267278789197995",
+          "author": "@rileybrown",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Cursor adds real-time voice chat with coding agents powered by Grok Voice",
+      "category": "feature_update",
+      "event_time": "2026-11-06T00:00:00Z",
+      "primary_url": "https://cursor.com/changelog/voice-chat",
+      "facts": [
+        "You can now talk with your agents in a realtime voice call.",
+        "Voice chat works in the Agents Window, the IDE, on web, and in Cursor for iOS.",
+        "Voice chat runs on Grok Voice."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/getsuperintel/status/2119388800036000235",
+          "author": "@getsuperintel",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Developers mixing Claude Code and Codex in shared setups",
+      "category": "discussion",
+      "event_time": "2026-11-08T03:49:31Z",
+      "primary_url": null,
+      "facts": [
+        "Developers are mixing Claude Code and Codex instead of picking one today.",
+        "A poll asks how people split the work: one plans and one codes, switch when a limit hits, run the same task in both, or something else."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/AGTPinsights/status/2119276102543626284",
+          "author": "@AGTPinsights",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Developer shares detailed AGENTS.md to reduce AI comment slop",
+      "category": "discussion",
+      "event_time": "2026-11-08T22:13:56Z",
+      "primary_url": null,
+      "facts": [
+        "Do not write comments unless they are absolutely necessary to explain some very complex business logic or used as an input for tools to read and act on.",
+        "The point of this rule is to keep out AI slop comments. AI writes way too many and way too verbose comments."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/xodud_rkd/status/2119554037041516757",
+          "author": "@xodud_rkd",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Community shares multi-model Claude Code setup with Sonnet, Haiku, and Opus advisor",
+      "category": "trend",
+      "event_time": "2026-11-08T22:24:18Z",
+      "primary_url": null,
+      "facts": [
+        "Run Sonnet 5.5 for the session and writes the code, Haiku 5.5 explores files and docs in parallel, Opus 5.5 stays on call as advisor for the big calls.",
+        "Opus only steps in at three moments: before a plan locks, when the same error shows up twice, and before calling it done."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/hayatomaruu/status/2119556644824608843",
+          "author": "@hayatomaruu",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Anthropic engineer shares playbook for managing coding agents like a team",
+      "category": "discussion",
+      "event_time": "2026-11-08T10:50:49Z",
+      "primary_url": null,
+      "facts": [
+        "Anthropic engineer Addy Osmani shared how to run AI coding agents like a team without babysitting every session.",
+        "It shows how to give agents context, verify their work, set guardrails and decide what ships: context → plan → delegate → verify → decide."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/beamnxw/status/2119382127040987266",
+          "author": "@beamnxw",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "OpenAI acquiring Pierre Computer Company to integrate code storage into Codex",
+      "category": "funding",
+      "event_time": "2026-11-08T21:19:00Z",
+      "primary_url": null,
+      "facts": [
+        "OpenAI announced November 4 it will acquire Pierre Computer Company, the startup behind Code Storage and the open-source Trees and Diffs libraries that already render file browsing and change review inside the Codex app.",
+        "The plan, once the deal closes: fold Code Storage into Codex, so the agent that writes your code also has somewhere to keep it."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/TommyBeFamous/status/2119540211738640847",
+          "author": "@TommyBeFamous",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Advice against treating AI coding agents like junior developers",
+      "category": "discussion",
+      "event_time": "2026-11-08T16:54:58Z",
+      "primary_url": null,
+      "facts": [
+        "Don't slow down your agents. Don't treat them like junior devs. Approving every small step.",
+        "My agents still don't push code. They plan, write, file issues and ask questions. A human decides what ships."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/madsonmac/status/2119473765499162666",
+          "author": "@madsonmac",
+          "official": false
+        }
+      ]
+    }
+  ]
+}
