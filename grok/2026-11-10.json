@@ -1,0 +1,124 @@
+{
+  "schema": "grok-inbox/2",
+  "date": "2026-11-10",
+  "generated_at": "2026-11-10T05:27:00+07:00",
+  "window_hours": 24,
+  "status": "ok",
+  "items": [
+    {
+      "id": 1,
+      "title": "Anthropic launches Claude Fable 5.2 and Mythos 5.2 for ambitious technical work",
+      "category": "model_infra",
+      "event_time": "2026-11-09T18:57:59Z",
+      "primary_url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "facts": [
+        "Claude Fable 5.2 and Claude Mythos 5.2 show improvements in areas like coding, reasoning, and vision.",
+        "They generate outputs up to 30% faster than Claude Fable 5.1 and Claude Mythos 5.1, and they’re available at a lower price: $8 per million input tokens and $40 per million output tokens.",
+        "During prerelease testing they’ve helped our engineers complete otherwise-infeasible software migrations, designed three working electronic devices from scratch, solved two open problems in the physics of black holes, made substantial progress on robotics evaluations, and formalized the proof of Fermat’s Last Theorem in 30 hours."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/claudeai/status/2119867114450268322", "author": "@claudeai", "official": true},
+        {"url": "https://x.com/claudeai/status/2119899492778398163", "author": "@claudeai", "official": true}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Claude Code v2.1.321 makes Claude Fable 5.2 the default Fable model",
+      "category": "feature_update",
+      "event_time": "2026-11-09T19:22:00Z",
+      "primary_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.321",
+      "facts": [
+        "Added Claude Fable 5.2 (claude-fable-5-2), now the default Fable model — 1M context, $8/$40 per Mtok with $0.20/Mtok cache reads.",
+        "Added --settings <file> to claude remote-control, which applies a settings file to every session it starts."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/nxtday/status/2119917999792730120", "author": "@nxtday", "official": false}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Meta releases Muse Ember, smallest model for agent subtasks including coding",
+      "category": "model_infra",
+      "event_time": "2026-11-09T21:49:49Z",
+      "primary_url": "https://research.meta.ai/blog/muse-ember",
+      "facts": [
+        "Today, we're introducing Muse Ember, our smallest and most efficient model designed for complex reasoning execution and the work agents repeat all day: tool calls, coding subtasks, routing, extraction, and long document parsing.",
+        "Muse Ember is available today on Muse Code and Meta Model API as muse-ember-1.0. It costs $0.10 per million input tokens, $0.004 per million cached input tokens and $0.50 per million output tokens."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/finkd/status/2119910354369257529", "author": "@finkd", "official": true},
+        {"url": "https://x.com/thecircuitry_/status/2119919691657273357", "author": "@thecircuitry_", "official": false}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Google Antigravity launches Knowledge Work interface layout",
+      "category": "feature_update",
+      "event_time": "2026-11-09T22:02:39Z",
+      "primary_url": "https://antigravity.google/blog/antigravity-for-knowledge-work",
+      "facts": [
+        "Today, we are launching a new Knowledge Work interface layout tuned for research, writing, and artifacts: same agent harness, plugins, and MCP tools, without the terminal and git clutter.",
+        "Select your layout in the General tab of Settings."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/antigravity/status/2119913586109579283", "author": "@antigravity", "official": true}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Claude Code Fable 5.2 system prompt leaked on GitHub",
+      "category": "discussion",
+      "event_time": "2026-11-09T21:10:51Z",
+      "primary_url": null,
+      "facts": [
+        "Here are the full system instructions + tools for Fable 5.2 in Claude Code!",
+        "The currently selected version of Claude is Claude Fable 5.2. Claude Fable 5.2 is our most intelligent and advanced model for chat and knowledge work."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/elder_plinius/status/2119900550385049838", "author": "@elder_plinius", "official": false}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Developers discuss multi-model advisor setups for Claude Code with Fable 5.2",
+      "category": "discussion",
+      "event_time": "2026-11-09T21:46:47Z",
+      "primary_url": null,
+      "facts": [
+        "The idea: run Sonnet, Haiku 5.5 and Opus 5.5 at once, each one doing only the job it's best at.",
+        "You just launch Claude Code like this: claude --model sonnet --advisor opus"
+      ],
+      "x_posts": [
+        {"url": "https://x.com/xsmryze/status/2119909593891627068", "author": "@xsmryze", "official": false}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Open-source projects enable AI agents to control real phones",
+      "category": "tool_launch",
+      "event_time": "2026-11-09T21:46:28Z",
+      "primary_url": null,
+      "facts": [
+        "Three open source projects hit GitHub this week that let it tap through a real phone.",
+        "Pinky - Claude Code, Codex or Cursor drive your iPhone or Android while you watch, payments wait for your click."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/Alexvx_nft/status/2119909512584814989", "author": "@Alexvx_nft", "official": false}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Google AI Studio integrates Google Maps Platform for app building",
+      "category": "feature_update",
+      "event_time": "2026-11-09T17:01:28Z",
+      "primary_url": null,
+      "facts": [
+        "you can now build with google maps platform in AI Studio.",
+        "go from idea to app powered by @googlemaps in minutes!"
+      ],
+      "x_posts": [
+        {"url": "https://x.com/GoogleAIStudio/status/2119837788937896234", "author": "@GoogleAIStudio", "official": true}
+      ]
+    }
+  ]
+}
