@@ -1,0 +1,126 @@
+{
+  "schema": "grok-inbox/2",
+  "date": "2026-11-11",
+  "generated_at": "2026-11-11T05:25:00+07:00",
+  "window_hours": 24,
+  "status": "ok",
+  "items": [
+    {
+      "id": 1,
+      "title": "Anthropic launches Claude Fable 5.2 and Mythos 5.2",
+      "category": "model_infra",
+      "event_time": "2026-11-09T14:00:00Z",
+      "primary_url": "https://www.anthropic.com/claude-fable-and-mythos-5-2",
+      "facts": [
+        "Claude Fable 5.2 and Claude Mythos 5.2 show improvements in areas like coding, reasoning, and vision.",
+        "They generate outputs up to 30% faster than Claude Fable 5.1 and Claude Mythos 5.1, and they’re available at a lower price: $8 per million input tokens and $40 per million output tokens.",
+        "Fable 5.2 and Mythos 5.2 also come with an optional fast mode, which speeds up token generation by up to 2.5 times."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/simonw/status/2120029347948220500", "author": "@simonw", "official": false},
+        {"url": "https://x.com/CNBC/status/2119868216340074848", "author": "@CNBC", "official": false}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Google makes Gemini 4 Carbon generally available",
+      "category": "model_infra",
+      "event_time": "2026-11-10T16:00:00Z",
+      "primary_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-4-carbon-now-available/",
+      "facts": [
+        "Today, we’re making Gemini 4 Carbon available to developers, enterprises, scientists, and consumers.",
+        "Carbon is our strongest model with frontier performance in cybersecurity capabilities and long-horizon agentic workflows across complex knowledge work, software engineering, and scientific reasoning.",
+        "Gemini 4 Carbon is available via the API in Google AI Studio and Gemini for business for all paying developers and enterprises, at the same introductory price as Gemini 4 Argon ($2 per million input tokens and $10 per million output tokens)."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/sundarpichai/status/2120185896469496180", "author": "@sundarpichai", "official": true},
+        {"url": "https://x.com/Google/status/2120186185423159331", "author": "@Google", "official": true}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Claude Fable 5.2 now generally available in GitHub Copilot",
+      "category": "feature_update",
+      "event_time": "2026-11-09T22:53:00Z",
+      "primary_url": "https://github.blog/changelog/2026-11-09-claude-fable-5-2-in-github-copilot/",
+      "facts": [
+        "Claude Fable 5.2, Anthropic’s newest Fable model, is now generally available in GitHub Copilot.",
+        "In early testing, Fable 5.2 solved more tasks than Claude Fable 5.1 while using fewer steps and tool calls.",
+        "Claude Fable 5.2 is available to Copilot Pro+, Max, Business, and Enterprise users."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/github/status/2119926269982961833", "author": "@github", "official": true}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Gemini 4 Carbon generally available in GitHub Copilot",
+      "category": "feature_update",
+      "event_time": "2026-11-10T19:58:00Z",
+      "primary_url": "https://github.blog/changelog/2026-11-09-gemini-4-carbon-in-github-copilot/",
+      "facts": [
+        "@GoogleAI's Gemini 4 Carbon is now generally available in GitHub Copilot.",
+        "Designed for complex coding, agentic, and reasoning tasks, it has a special focus in security work."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/github/status/2120244851853996126", "author": "@github", "official": true}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Runway plugin available in Codex and ChatGPT",
+      "category": "feature_update",
+      "event_time": "2026-11-10T20:52:00Z",
+      "primary_url": null,
+      "facts": [
+        "With the @runwayml plugin in Codex and ChatGPT, you can see how a character from your prototype moves, try a different opening shot for a trailer, or turn a product photo into a video ad."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/OpenAIDevs/status/2120258357533749755", "author": "@OpenAIDevs", "official": true}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Claude Code 2.1.321 makes Fable 5.2 the default Fable model",
+      "category": "feature_update",
+      "event_time": "2026-11-10T22:12:00Z",
+      "primary_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.321",
+      "facts": [
+        "Anthropic shipped Fable 5.2 yesterday. if you had Fable 5.1 saved, Claude Code already moved you onto it. at medium effort",
+        "Fable 5.2 is now the default Fable model in Claude Code: 1M context, $8 in and $40 out per million tokens, $0.20 for cache reads. it needs v2.1.321 or later"
+      ],
+      "x_posts": [
+        {"url": "https://x.com/tidyowl/status/2120275954631340036", "author": "@tidyowl", "official": false},
+        {"url": "https://x.com/figueirego/status/2120278327143371218", "author": "@figueirego", "official": false}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Codex CLI 0.167.1 released with faster startup",
+      "category": "feature_update",
+      "event_time": "2026-11-10T22:18:00Z",
+      "primary_url": "https://github.com/openai/codex/releases/tag/rust-v0.167.1",
+      "facts": [
+        "Codex CLI 0.167.1 is a small but useful update: faster startup in large repos and a fix for a crash when resuming sessions.",
+        "The patch is available now in OpenAI’s Codex repo."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/nurhayatdev/status/2120280016185348361", "author": "@nurhayatdev", "official": false}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Developers discuss Fable 5.2 performance on coding and agent tasks",
+      "category": "discussion",
+      "event_time": "2026-11-10T22:00:00Z",
+      "primary_url": null,
+      "facts": [
+        "Claude Fable 5.2 is doing things that used to take teams weeks",
+        "The gap between “impressive demo” and “something you can ship and rely on every day” is still wide"
+      ],
+      "x_posts": [
+        {"url": "https://x.com/holaprm/status/2120280609373470778", "author": "@holaprm", "official": false}
+      ]
+    }
+  ]
+}
