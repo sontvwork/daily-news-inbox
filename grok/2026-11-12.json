@@ -1,0 +1,151 @@
+{
+  "schema": "grok-inbox/2",
+  "date": "2026-11-12",
+  "generated_at": "2026-11-12T05:30:00+07:00",
+  "window_hours": 24,
+  "status": "ok",
+  "items": [
+    {
+      "id": 1,
+      "title": "Google Antigravity rolls out browser use for agents",
+      "category": "feature_update",
+      "event_time": "2026-11-11T16:37:04Z",
+      "primary_url": "https://antigravity.google/docs/changelog/",
+      "facts": [
+        "Browser use has been rolling out in Antigravity, closing the loop between researching, writing code, and verifying it live.",
+        "You choose what to log into, downloads pause until you approve them, and the agent can use the browser to run multiple tasks at once."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/antigravity/status/2120556423474028576",
+          "author": "@antigravity",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Gemini 4 Carbon and /swarm multi-agent preview land in Antigravity",
+      "category": "model_infra",
+      "event_time": "2026-11-10T00:00:00Z",
+      "primary_url": "https://antigravity.google/blog/gemini-4-carbon-in-google-antigravity/",
+      "facts": [
+        "Today, we’re rolling out Gemini 4 Carbon inside Google Antigravity alongside /swarm (in preview), pairing our strongest model for long-horizon software engineering with native multi-agent team orchestration.",
+        "Google AI Ultra subscribers can build with Gemini 4 Carbon in the Antigravity App, the Antigravity CLI, and Antigravity IDE extensions, and /swarm is rolling out today in preview."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/antigravity/status/2120556423474028576",
+          "author": "@antigravity",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Command Code Desktop v0.1.61 lets Claude Code run as an agent in chat",
+      "category": "tool_launch",
+      "event_time": "2026-11-11T00:00:00Z",
+      "primary_url": "https://github.com/CommandCodeAI/desktop/releases/tag/v0.1.61",
+      "facts": [
+        "Use Claude Code as an agent right in the chat.",
+        "DeepSeek V4.1 Flash is now the default model. Add Gemini 4 Carbon, Claude Fable 5.2, Muse Ember, DeepSeek V4.1 Flash Ultrafast and Ling 3.1 Flash 1019 to the model picker."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/CommandCodeAI/status/2120607963446751518",
+          "author": "@CommandCodeAI",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Developer reports opening 23 PRs in one day with AI agents and adjusting workflow",
+      "category": "discussion",
+      "event_time": "2026-11-11T22:23:02Z",
+      "primary_url": null,
+      "facts": [
+        "I opened 23 PRs today on 3 different contexts, and to be honest I had to put most of my mental effort on not getting lost.",
+        "These are the changes I made to handle 2-3x the volume: Better design since the beginning, Critical PRs go to me for review, New task = new session, No coordinators past 150k tokens."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/liamszefner/status/2120643492145684481",
+          "author": "@liamszefner",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Roma 2.0 launches as to-do list for coordinating multiple AI agents",
+      "category": "tool_launch",
+      "event_time": "2026-11-11T15:59:25Z",
+      "primary_url": null,
+      "facts": [
+        "Roma automatically creates tasks and hands them to the right agent. Allowing you and your agents to work together, with shared context."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/jans/status/2120546950496043111",
+          "author": "@jans",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Claude Fable 5.2 tops Signal65 PINNACLE coding benchmark",
+      "category": "trend",
+      "event_time": "2026-11-11T22:19:02Z",
+      "primary_url": null,
+      "facts": [
+        "Claude Fable 5.2 passed 28 of 30 Frontier Class coding jobs on Signal65 PINNACLE. No other model has passed more than 21.",
+        "It also costs $30.51 per passed job in our testing, 3.9x Claude Opus 5.5."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/Signal_65/status/2120642485881835680",
+          "author": "@Signal_65",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Qwen4-Max-Preview builds full interactive 3D Earth app in under 2 hours via agent",
+      "category": "case_study",
+      "event_time": "2026-11-11T22:20:28Z",
+      "primary_url": null,
+      "facts": [
+        "Qwen4-Max-Preview built a full 3D Earth mission control app in 1 hour and 47 minutes using Hermes harness.",
+        "From prompt to live website: started 9:23 AM, deployed and verified 11:10 AM."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/ViC305/status/2120642845032042753",
+          "author": "@ViC305",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Discussions on agent coordination and the need for isolation in multi-agent coding",
+      "category": "discussion",
+      "event_time": "2026-11-11T22:10:00Z",
+      "primary_url": null,
+      "facts": [
+        "A coding agent picking up a task and writing to your repo needs the handoff to come with isolation, not just shared context. That's what git worktrees are for."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/stretchcloud/status/2120640210493198737",
+          "author": "@stretchcloud",
+          "official": false
+        }
+      ]
+    }
+  ]
+}
