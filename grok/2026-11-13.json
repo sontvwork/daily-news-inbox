@@ -1,0 +1,161 @@
+{
+  "schema": "grok-inbox/2",
+  "date": "2026-11-13",
+  "generated_at": "2026-11-13T05:25:00+07:00",
+  "window_hours": 24,
+  "status": "ok",
+  "items": [
+    {
+      "id": 1,
+      "title": "Google launches Gemini 4 Hydrogen for everyday coding and agentic workflows",
+      "category": "model_infra",
+      "event_time": "2026-11-12T18:09:08Z",
+      "primary_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/",
+      "facts": [
+        "Gemini 4 Hydrogen is priced flat across its entire 1 million-token context window at $1.50 per million input tokens and $7.50 per million output tokens.",
+        "Hydrogen surpasses Argon on the Artificial Analysis Intelligence Index at its default high thinking level (51 vs. 50, and reaching 54 at its highest xhigh thinking setting).",
+        "Orchestrator in Google Antigravity dynamically switches between models like Carbon and Hydrogen, reaching near-Carbon task success rates on Terminal-Bench 4.0 while consuming 24% less quota and completing 19% faster on average."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/Google/status/2121004369617485896",
+          "author": "@Google",
+          "official": true
+        },
+        {
+          "url": "https://x.com/Google/status/2120982566891356279",
+          "author": "@Google",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Anthropic introduces Claude Meetings beta for team video calls",
+      "category": "feature_update",
+      "event_time": "2026-11-12T20:16:20Z",
+      "primary_url": "https://claude.com/resources/articles/claude-meetings",
+      "facts": [
+        "Claude can now join your video calls as a visible participant, follow the conversation and start on work during the meeting.",
+        "Claude Meetings is starting to roll out in beta on Team and Enterprise plans.",
+        "Support is currently available for Google Meet, with other platforms coming soon."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/claudeai/status/2120973994191094179",
+          "author": "@claudeai",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Inkling 2 Small multimodal MoE model now live on Together AI",
+      "category": "model_infra",
+      "event_time": "2026-11-12T21:10:59Z",
+      "primary_url": "https://www.together.ai/models/inkling-2-small",
+      "facts": [
+        "Inkling 2 Small has 594B parameters, 17B active parameters and a 1M-token context window.",
+        "On Together AI it costs $0.30 per 1M input tokens and $1.00 per 1M output tokens.",
+        "The multimodal MoE is built for coding, long-horizon agentic work and vision."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/togethercompute/status/2120987745287856616",
+          "author": "@togethercompute",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Google rolls out Orchestrator in Antigravity pairing Carbon and Hydrogen",
+      "category": "feature_update",
+      "event_time": "2026-11-12T20:50:24Z",
+      "primary_url": "https://antigravity.google/blog/gemini-4-hydrogen-in-google-antigravity/",
+      "facts": [
+        "Orchestrator is rolling out to Google AI Ultra subscribers, letting you run multiple models in a single session.",
+        "Orchestrator pairs a frontier model with a fast execution model: Carbon sets the plan, hands off code edits and testing to Hydrogen.",
+        "It reached near-Carbon task success rates on Terminal-Bench 4.0 while consuming 24% less quota and completing 19% faster on average."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/Google/status/2120982566891356279",
+          "author": "@Google",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Developers share multi-model Claude Code team setups for agents",
+      "category": "discussion",
+      "event_time": "2026-11-12T21:00:16Z",
+      "primary_url": null,
+      "facts": [
+        "A shared prompt configures Claude Code as a 4-model team: Sonnet 5.5 runs the session, Fable 5.2 as advisor, Opus 5.5 as checker, Haiku 5.5 as scout.",
+        "The setup uses settings.json for model and advisorModel, plus agent files for checker and scout that never edit files."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/seeconvm/status/2120985049906508263",
+          "author": "@seeconvm",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Hot discussion on diversifying AI agent platforms to avoid single points of failure",
+      "category": "trend",
+      "event_time": "2026-11-12T22:23:09Z",
+      "primary_url": null,
+      "facts": [
+        "Advice shared to map agent jobs, sort locked vs off-board, and move jobs while nothing is broken to diversify platforms.",
+        "Use of group chats with agents like GrokBot, Muse, and others, plus shared vaults for project context."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/AgentMsgr/status/2121005908540952732",
+          "author": "@AgentMsgr",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Community tips for making Claude Fable 5.2 treat codebase as its own",
+      "category": "discussion",
+      "event_time": "2026-11-12T22:25:25Z",
+      "primary_url": null,
+      "facts": [
+        "A single sentence in the project's CLAUDE.md file is reported to improve Fable 5.2's cleanup of repeated code from under 1 in 10 tries to about half.",
+        "The sentence is: this codebase is yours: what it's for and how it's built are your call, and you'll keep building on it."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/Kuzoxbt/status/2121006479767441916",
+          "author": "@Kuzoxbt",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Claude Code changelog bot notes upcoming 2.1.323 release",
+      "category": "discussion",
+      "event_time": "2026-11-12T20:31:13Z",
+      "primary_url": null,
+      "facts": [
+        "Unofficial Claude Code Changelog account posted that Claude Code 2.1.323 is about to be released."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/ClaudeCodeLog/status/2120977740379587007",
+          "author": "@ClaudeCodeLog",
+          "official": false
+        }
+      ]
+    }
+  ]
+}
