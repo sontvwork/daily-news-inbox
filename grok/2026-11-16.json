@@ -1,0 +1,128 @@
+{
+  "schema": "grok-inbox/2",
+  "date": "2026-11-16",
+  "generated_at": "2026-11-16T05:28:00+07:00",
+  "window_hours": 24,
+  "status": "ok",
+  "items": [
+    {
+      "id": 1,
+      "title": "GitHub Copilot app gets security extension for code scanning alerts",
+      "category": "feature_update",
+      "event_time": "2026-11-15T20:06:05Z",
+      "primary_url": "https://docs.github.com/en/copilot/how-tos/github-copilot-app/view-and-fix-security-alerts",
+      "facts": [
+        "With the new GitHub security extension, you can ask Copilot to find, explain, and fix (or dismiss!) an alert.",
+        "The GitHub security extension is in public preview.",
+        "You can also review your local changes for new vulnerabilities before opening a pull request."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/github/status/2122058578005487774", "author": "@github", "official": true}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Claude Code Code Mode lets agent write JavaScript for batched tool calls",
+      "category": "feature_update",
+      "event_time": "2026-11-15T22:23:00Z",
+      "primary_url": "https://code.claude.com/docs/en/code-mode",
+      "facts": [
+        "Code Mode is experimental and off by default.",
+        "With Code Mode, Claude writes a piece of JavaScript that makes the tool calls, and Claude Code runs that code in your session.",
+        "Code Mode requires Claude Code v2.1.323 or later."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/prem_itx/status/2122093032694517854", "author": "@prem_itx", "official": false},
+        {"url": "https://x.com/Hislordship_9/status/2122091274551578885", "author": "@Hislordship_9", "official": false}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Developer builds playable Unreal game in 4 days directing Claude, Antigravity and Codex agents",
+      "category": "case_study",
+      "event_time": "2026-11-15T22:25:52Z",
+      "primary_url": "https://www.unrealengine.com/news/2026-epic-ai-megajam",
+      "facts": [
+        "I made a game in 4 days by directing a crew of AI agents.",
+        "The crew: me directing. Claude (Anthropic) on code, Unreal levels and briefs. Carbon (Gemini in Google Antigravity) on Blender, 3D and fix swarms. Astra (Codex) on cut-scenes and music in Voyager.",
+        "AI 2030: Uprising, Chapter One is in."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/DatumFoundryAI/status/2122093754739790043", "author": "@DatumFoundryAI", "official": false}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Tips for multi-model subagents in Claude Code to reduce token use",
+      "category": "discussion",
+      "event_time": "2026-11-15T22:16:36Z",
+      "primary_url": null,
+      "facts": [
+        "Every subagent gets its own context window and only its summary comes back.",
+        "The model field in .claude/agents/ decides which model each one runs on: haiku, sonnet, opus, fable, or a full model ID.",
+        "Claude Code runs up to 20 subagents at once by default."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/thedelost/status/2122091423180992925", "author": "@thedelost", "official": false}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "OpenMausBot: open-source local workspace for multiple coding agents including Claude Code and Codex",
+      "category": "tool_launch",
+      "event_time": "2026-11-15T22:06:14Z",
+      "primary_url": null,
+      "facts": [
+        "it's an open-source, local-first AI agent workspace inspired by Grok Bot.",
+        "runs Claude Code, Codex, and Grok through their local CLI installations",
+        "lets you create multiple independent AI bots, each with its own model, personality, and conversation memory"
+      ],
+      "x_posts": [
+        {"url": "https://x.com/fayzonnn/status/2122088815917490213", "author": "@fayzonnn", "official": false}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Ongoing discussion of Cursor security incident involving malicious Claude Code extension",
+      "category": "discussion",
+      "event_time": "2026-11-15T22:03:47Z",
+      "primary_url": "https://cursor.com/blog/security-incident-update",
+      "facts": [
+        "At most 5,000 users who requested specific cached versions of the extension on October 29 potentially received the malicious build.",
+        "The last attacker activity we have seen was on November 1, and it was blocked.",
+        "Cursor moved all inference off Fireworks."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/f3rn4ndoluiz/status/2122088198364971044", "author": "@f3rn4ndoluiz", "official": false}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Using Antigravity and Codex with Widgetbook for agentic Flutter UI prototyping",
+      "category": "discussion",
+      "event_time": "2026-11-15T22:22:03Z",
+      "primary_url": null,
+      "facts": [
+        "Ask agents to prototype screens with @widgetbook_io and annotate your feedback by clicking on Flutter widgets for the next iteration just like in Figma.",
+        "Codex has this amazing annotation feature which you can give on screen Figma comments style feedback to agents."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/ulusoyapps/status/2122092794177081652", "author": "@ulusoyapps", "official": false}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Community tips on structuring Claude Code with CLAUDE.md, skills, agents and hooks",
+      "category": "discussion",
+      "event_time": "2026-11-15T19:40:36Z",
+      "primary_url": null,
+      "facts": [
+        "once you add: CLAUDE.md → project memory skills/ → auto-activated workflows agents/ → parallel workers hooks → lifecycle automation MCP → external tools settings.json → permissions & guardrails",
+        "Claude stops being a chatbot and starts acting like a senior engineer that knows your repo"
+      ],
+      "x_posts": [
+        {"url": "https://x.com/AiwithDharmik/status/2122052165569241092", "author": "@AiwithDharmik", "official": false}
+      ]
+    }
+  ]
+}
