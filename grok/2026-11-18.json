@@ -1,0 +1,126 @@
+{
+  "schema": "grok-inbox/2",
+  "date": "2026-11-18",
+  "generated_at": "2026-11-18T05:33:00+07:00",
+  "window_hours": 24,
+  "status": "ok",
+  "items": [
+    {
+      "id": 1,
+      "title": "Microsoft MAI Code 2 and Code 2 Flash generally available in GitHub Copilot",
+      "category": "model_infra",
+      "event_time": "2026-11-17T18:34:00Z",
+      "primary_url": "https://github.blog/changelog/2026-11-17-mai-code-2-and-mai-code-2-flash-in-github-copilot/",
+      "facts": [
+        "MAI Code 2 and MAI Code 2 Flash are now generally available in GitHub Copilot.",
+        "MAI Code 2 is a powerful general purpose coding model ideal for deep debugging, multi-file implementation, refactoring, and repository-wide reasoning.",
+        "MAI Code 2 Flash is a lightweight cost-efficient model for code explanations, targeted edits, routine fixes, and rapid iteration."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/github/status/2122814155979706846", "author": "@github", "official": true},
+        {"url": "https://x.com/msdev/status/2122760423699268086", "author": "@msdev", "official": true}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "OpenAI GPT-6.2 Astra and Sol available in GitHub Copilot, Codex, and API",
+      "category": "model_infra",
+      "event_time": "2026-11-17T17:54:00Z",
+      "primary_url": "https://github.blog/changelog/2026-11-17-openais-gpt-6-2-astra-and-gpt-6-2-sol-now-available/",
+      "facts": [
+        "OpenAI’s GPT-6.2 Astra and GPT-6.2 Sol are now generally available in GitHub Copilot.",
+        "Both models are designed for agentic coding and code review, with stronger coding judgment than earlier GPT-6 models.",
+        "GPT-6.2 Astra is OpenAI’s latest Astra model for agentic coding and terminal work; GPT-6.2 Sol is for complex agentic coding and in-depth code review."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/OpenAI/status/2122750124543926515", "author": "@OpenAI", "official": true},
+        {"url": "https://x.com/GHchangelog/status/2122793172564578755", "author": "@GHchangelog", "official": true}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Cursor details October security incident involving Fireworks key and malicious Claude Code extension",
+      "category": "discussion",
+      "event_time": "2026-11-13T00:00:00Z",
+      "primary_url": "https://cursor.com/blog/security-incident-update",
+      "facts": [
+        "An attacker obtained an access key Cursor had issued to Fireworks, which Fireworks exposed, and used it to copy limited coding agent traces.",
+        "The attacker placed malicious unauthorized copies of Anthropic's Claude Code extension on the Cursor VS Code extension marketplace cache on October 29.",
+        "At most 5,000 users who requested specific cached versions potentially received the malicious build; Cursor says the incident is contained."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/cursor_ai/status/2121411147714970092", "author": "@cursor_ai", "official": true},
+        {"url": "https://x.com/koltregaskes2/status/2122820325918531946", "author": "@koltregaskes2", "official": false}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Google Antigravity robotics plugin with Gemini 4 Hydrogen for conversational robot task training",
+      "category": "tool_launch",
+      "event_time": "2026-11-17T19:03:00Z",
+      "primary_url": null,
+      "facts": [
+        "With Gemini 4 Hydrogen and the new robotics plugin for Google Antigravity, you can connect a supported arm, practice in MuJoCo simulation, and run tasks in the real world using plain conversation."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/GoogleDeepMind/status/2122767521925230896", "author": "@GoogleDeepMind", "official": true}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "JetBrains 2026.3 IDEs ship with Air for agentic development",
+      "category": "feature_update",
+      "event_time": "2026-11-17T14:22:00Z",
+      "primary_url": "https://blog.jetbrains.com/ai/2026/11/air-in-jetbrains-ides-ga/",
+      "facts": [
+        "The 2026.3 versions of JetBrains IDEs are out, with Air.",
+        "Air lets agents do more of the work while you stay in control of what ships, with one place to review every change.",
+        "Supports Claude Agent, Codex, Copilot, Junie, and more; bring your own subscriptions or use Junie Lite for free."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/jetbrains/status/2122696892056219968", "author": "@jetbrains", "official": true}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Developers share Claude Code skills and persistent memory workflows for agent reuse",
+      "category": "trend",
+      "event_time": "2026-11-17T22:32:00Z",
+      "primary_url": null,
+      "facts": [
+        "Users describe saving work procedures as SKILL.md files in Claude Code and Codex for reuse by asking the agent to turn the current procedure into a Skill."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/infoforinsta/status/2122820323414589733", "author": "@infoforinsta", "official": false},
+        {"url": "https://x.com/younesbagh/status/2122820228233265604", "author": "@younesbagh", "official": false}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Microsoft AI claims strong price-performance for MAI Code 2 vs GPT-6 and Claude on everyday coding benchmarks",
+      "category": "model_infra",
+      "event_time": "2026-11-17T20:06:00Z",
+      "primary_url": "https://microsoft.ai/news/introducing-mai-code-2-and-mai-code-2-flash/",
+      "facts": [
+        "Averaged over four benchmarks (DeepSWE 1.1, Terminal Bench 2.1, SWE-Atlas and FrontierCode v1.1), MAI Code 2 gives 98% of the performance of GPT 6.1 Sol at 40% of the cost, and 96% of Claude Opus 5.5’s performance at 5% of the cost.",
+        "MAI Code 2 Flash offers comparable performance to GPT-6 Luna and Claude Haiku 5.5 at 65% and 20% of the cost on day-to-day high-volume coding tasks."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/MicrosoftAI/status/2122783537069785345", "author": "@MicrosoftAI", "official": true}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Hot discussion on agentic coding evolution, review bottlenecks, and residual human role",
+      "category": "discussion",
+      "event_time": "2026-11-16T11:16:00Z",
+      "primary_url": null,
+      "facts": [
+        "A widely engaged post outlines a timeline of AI coding developments and concludes that no-one is writing code anymore while the community figures out the implications."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/mattpocockuk/status/2122287575557706226", "author": "@mattpocockuk", "official": false}
+      ]
+    }
+  ]
+}
