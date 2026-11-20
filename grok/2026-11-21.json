@@ -1,0 +1,157 @@
+{
+  "schema": "grok-inbox/2",
+  "date": "2026-11-21",
+  "generated_at": "2026-11-21T05:45:00+07:00",
+  "window_hours": 24,
+  "status": "ok",
+  "items": [
+    {
+      "id": 1,
+      "title": "Codex CLI 0.171.0 makes GPT-6.2 Sol default and enables TUI workspace",
+      "category": "feature_update",
+      "event_time": "2026-11-20T00:44:00Z",
+      "primary_url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0",
+      "facts": [
+        "Added GPT-6.2 Sol and Astra to model catalogs, with Sol as the default catalog selection.",
+        "Enabled the TUI workspace by default, with searchable document previews, image previews, and subagent transcripts alongside the main conversation.",
+        "Added codex exec --remote <ADDR> to start or resume noninteractive sessions on an existing app server."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/CodexReleases/status/2123610218798194960", "author": "@CodexReleases", "official": false}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Claude Code 2.1.329 adds hook trust warnings and expands /tasks view",
+      "category": "feature_update",
+      "event_time": "2026-11-19T22:14:00Z",
+      "primary_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.329",
+      "facts": [
+        "Added a trust dialog warning that says where a folder's hooks are declared.",
+        "Added this session's scheduled tasks, /loop wakeups, the goal and this conversation's forks to /tasks; x stops one after asking.",
+        "Added a warning in the conversation, in Claude Desktop and other non-interactive hosts, when hooks in managed settings fail to load."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/ZST_WIP/status/2123901703351120128", "author": "@ZST_WIP", "official": false}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Stripe Evals shows coding agents average 78% but only 29% strict pass on payment tasks",
+      "category": "trend",
+      "event_time": "2026-11-19T00:00:00Z",
+      "primary_url": "https://stripe.dev/blog/stripe-integration-evals-methodology",
+      "facts": [
+        "We ran 69 scenarios across one-time payments, subscriptions, and Connect on 14 model and harness pairs, both with and without the Stripe agent plugin.",
+        "While the headline numbers are high, a strict pass rate requiring all necessary criteria to pass drops the average score across all agents from 78.1% to 29.4%.",
+        "All 14 coding agents scored higher with the plugin, by roughly 3 to 8 percentage points, and web searches fell 96%."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/RajaPatnaik/status/2123654069340508254", "author": "@RajaPatnaik", "official": false}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Kong launches Volcano self-healing agent cloud for coding agents",
+      "category": "tool_launch",
+      "event_time": "2026-11-19T00:00:00Z",
+      "primary_url": "https://volcano.dev/blog/introducing-volcano-agent-cloud",
+      "facts": [
+        "Today we are announcing Volcano, a new self-healing agent cloud that provides in one place everything developers need to build agents and applications at scale.",
+        "Volcano hosts all applications, agents, data storage and other capabilities that can be used seamlessly from your favorite coding harness (Cursor, Codex, Claude Code, and more).",
+        "Once your agents, backends and frontends are running in Volcano, Volcano kicks in and works for you to continuously identify issues and provide resolutions to bugs."
+      ],
+      "x_posts": []
+    },
+    {
+      "id": 5,
+      "title": "Microsoft unveils MAI Code 2 coding models at Ignite 2026",
+      "category": "model_infra",
+      "event_time": "2026-11-19T00:00:00Z",
+      "primary_url": "https://devops.com/at-ignite-microsoft-makes-the-case-for-good-enough-coding-models",
+      "facts": [
+        "Microsoft AI introduced MAI Code 2 and MAI Code 2 Flash, the second generation of its coding model line.",
+        "Averaged across four benchmarks, Microsoft says MAI Code 2 delivers about 98% of OpenAI GPT-6.1 Sol’s performance at roughly 40% of the price, and about 96% of Anthropic Claude Opus 5.5’s performance at roughly 5% of the price.",
+        "Both are available now in GitHub Copilot."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/MicrosoftAI/status/2123868987666674069", "author": "@MicrosoftAI", "official": true}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Matt Pocock viral prompt treats code comments as harmful for AI agents",
+      "category": "discussion",
+      "event_time": "2026-11-20T15:19:28Z",
+      "primary_url": null,
+      "facts": [
+        "Take a look at every code comment in my codebase. Categorise each comment as: Tautology, Excuse, Stale, or Decision Record.",
+        "For each comment, take this action: Tautology/Stale: delete the comment; Excuse: delete the comment and file an issue; Decision Record: move it into an ADR.",
+        "I'm sold - comments considered harmful."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/mattpocockuk/status/2123798388227403983", "author": "@mattpocockuk", "official": false}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "GrokBot engineer explains formal verification risks when AI writes code and specs",
+      "category": "discussion",
+      "event_time": "2026-11-20T22:03:26Z",
+      "primary_url": null,
+      "facts": [
+        "GrokBot engineer Lauren Tan: 'You could be proving false is true' she explained formal verification in 60 seconds.",
+        "the trap is drift. the proof lives in a different language than your code. so how do you know the model you proved actually matches what runs in production?",
+        "if no human reads the spec, the machine can guarantee your code follows some intent. 'But is that intent correct?'"
+      ],
+      "x_posts": [
+        {"url": "https://x.com/pacarunn/status/2123900048983671137", "author": "@pacarunn", "official": false}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Apple job listing describes AI agent that browses, codes, and drives apps",
+      "category": "discussion",
+      "event_time": "2026-11-20T22:31:38Z",
+      "primary_url": null,
+      "facts": [
+        "Imagine an AI agent that can use a computer the way a capable person does.",
+        "It browses the web, works across apps, runs commands, writes and debugs code, and calls services, and it chooses the right tool for each step.",
+        "The agents can also coordinate specialized sub-agents along the way."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/ph8games/status/2123907145196519445", "author": "@ph8games", "official": false}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "pstack v0.15.46 adds Gemini 4 Neon as panel reviewer for coding agents",
+      "category": "feature_update",
+      "event_time": "2026-11-20T17:03:58Z",
+      "primary_url": null,
+      "facts": [
+        "small updates in pstack v0.15.46",
+        "lots of pruning, skills are now much shorter",
+        "gemini 4 neon is added as a panel reviewer"
+      ],
+      "x_posts": [
+        {"url": "https://x.com/poteto/status/2123824683862855898", "author": "@poteto", "official": false}
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Developer benchmarks Gemini Carbon 4 as strong orchestrator in Antigravity",
+      "category": "discussion",
+      "event_time": "2026-11-20T21:44:02Z",
+      "primary_url": null,
+      "facts": [
+        "Ladies and Gents, Gemini Carbon 4 on noahbench! This model places FIRST when it comes to mechanics.",
+        "Carbon is fable class model... implementation is a solved problem.",
+        "Overall, Carbon is an absurdly knowledgeable model that performs very well in a knowledge focused position such as an orchestrator."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/itsnoahd/status/2123895167572742374", "author": "@itsnoahd", "official": false}
+      ]
+    }
+  ]
+}
