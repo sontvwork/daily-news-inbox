@@ -1,0 +1,130 @@
+{
+  "schema": "grok-inbox/2",
+  "date": "2026-11-22",
+  "generated_at": "2026-11-22T05:25:57+07:00",
+  "window_hours": 24,
+  "status": "ok",
+  "items": [
+    {
+      "id": 1,
+      "title": "Antigravity CLI 1.5.14 adds live thinking stream, swarm overview, and remote plan mode",
+      "category": "feature_update",
+      "event_time": "2026-11-21T07:57:00Z",
+      "primary_url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.5.14",
+      "facts": [
+        "Added /thinking to stream the model's full thinking live in the transcript while it thinks and keep finished thoughts expanded without pressing Ctrl+O.",
+        "Added a live Overview section to /swarm board on terminals at least 28 rows tall, showing the swarm's goal, overall task progress (Overview · N of M tasks done and any blocked count), and up to six workstream threads with status indicators.",
+        "Added plan mode to --remote-agent sessions, so a remote agent can research and write a plan for your review before editing files or running commands."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/Khaled865412521/status/2124150698023514572", "author": "@Khaled865412521", "official": false},
+        {"url": "https://x.com/antigravity/status/2124201177344582136", "author": "@antigravity", "official": true}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Claude Code v2.1.330 adds easel chart mod, Enterprise Admin Console sign-in, and worktree safety fixes",
+      "category": "feature_update",
+      "event_time": "2026-11-20T22:32:00Z",
+      "primary_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.330",
+      "facts": [
+        "Added sign-in to organizations managed in Anthropic's Enterprise Admin Console: after claude auth login, Claude Code applies the organization's settings and uses its cloud provider or gateway.",
+        "Added easel, a built-in mod that draws charts when asked and under MCP metrics results, on Pro, Max and, where available, Team and Enterprise on macOS and Linux; turn automatic charts off in /config.",
+        "Fixed ExitWorktree and the worktree exit dialog deleting a worktree that another running Claude Code session was working in."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/aiinfo_x/status/2124259177615053047", "author": "@aiinfo_x", "official": false},
+        {"url": "https://x.com/MegaEvolvedFrog/status/2124129737454866594", "author": "@MegaEvolvedFrog", "official": false}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "MomongaCode v0.1.0 launches as open-source terminal coding agent with evidence-backed memory and token efficiency",
+      "category": "tool_launch",
+      "event_time": "2026-11-21T05:00:00Z",
+      "primary_url": "https://github.com/yuuichieguchi/MomongaCode",
+      "facts": [
+        "MomongaCode is a coding agent for the terminal. It works with local and hosted models, keeps its own memory of your repositories, and runs tool calls under a permission system and an operating-system sandbox.",
+        "Evidence-backed repo memory: memory and context are built by the runtime from recorded events, not left to the model alone.",
+        "Token efficiency ON by default, and a built-in eval command that measures each saving against a baseline with it off."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/Pro_Algorithm/status/2124141918175007038", "author": "@Pro_Algorithm", "official": false}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Developers share Claude Code workflows combining Matt Pocock skills with Beads task graphs for parallel agent work",
+      "category": "discussion",
+      "event_time": "2026-11-21T22:23:35Z",
+      "primary_url": null,
+      "facts": [
+        "Beads gives your agents a task graph they always remember, even across new sessions.",
+        "bd ready shows only the tasks with nothing blocking them; it claims one with bd update --claim, builds it with /implement, which writes tests first and finishes with a code review, then closes it with bd close.",
+        "Claims are atomic, so two agents never grab the same task."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/Layton_Gott/status/2124267507255062727", "author": "@Layton_Gott", "official": false}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Users report mixed experiences with Antigravity reliability and Neon model performance compared to Claude Code and Codex",
+      "category": "discussion",
+      "event_time": "2026-11-21T21:46:10Z",
+      "primary_url": null,
+      "facts": [
+        "Pros: a much better conversation experience than other models rn; surprisingly an entropic beast, able to diversify approaches; code quality is OOM better.",
+        "Cons: speed? Neon takes 3-4x longer for response; swarm mode will get stuck waiting for prev step completion.",
+        "When I use Codex, OpenCode, or Cursor, the overall workflow generally feels more efficient and predictable."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/rohanxparmar/status/2124258089679638653", "author": "@rohanxparmar", "official": false},
+        {"url": "https://x.com/jal_eelll/status/2124106585945297179", "author": "@jal_eelll", "official": false}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Skills Manager tool helps share and update agent skills across Claude Code, Codex, and OpenCode",
+      "category": "tool_launch",
+      "event_time": "2026-11-21T21:48:03Z",
+      "primary_url": null,
+      "facts": [
+        "Found Skills Manager a month ago. It’s open-source and lets you keep skills either per project or as global ones that work across agents.",
+        "This Skills Manager demo shows the part I’d actually use: you can go from the shared library to the Claude Code view and see which skills that agent has."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/0x_CryptoFuture/status/2124258566328463548", "author": "@0x_CryptoFuture", "official": false}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Codex CLI 0.171.0 enables TUI workspace by default with document previews and adds GPT-6.2 models",
+      "category": "feature_update",
+      "event_time": "2026-11-20T00:44:00Z",
+      "primary_url": "https://github.com/openai/codex/releases/tag/rust-v0.171.0",
+      "facts": [
+        "Added GPT-6.2 Sol and Astra to model catalogs, with Sol as the default catalog selection.",
+        "Enabled the TUI workspace by default, with searchable document previews, image previews, and subagent transcripts alongside the main conversation."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/kaddisdeployed/status/2123988281616441820", "author": "@kaddisdeployed", "official": false}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "GitLab Duo Agent Platform integrates with terminal coding agents like Claude Code, Cursor, and Codex for MR workflows",
+      "category": "feature_update",
+      "event_time": "2026-11-19T12:00:00Z",
+      "primary_url": "https://about.gitlab.com/blog/coding-agents-with-gitlab/",
+      "facts": [
+        "Use Claude Code, Codex, Cursor, or other coding agents with GitLab, so every MR gets the same review, CI fixes, security checks, and approvals.",
+        "You can now set up code review, pipeline repair, and security triage together from your coding session.",
+        "The GitLab Duo setup skill connects your agent to GitLab and configures automatic review and failed-pipeline repair."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/theagenticdaily/status/2123939765645169137", "author": "@theagenticdaily", "official": false}
+      ]
+    }
+  ]
+}
