@@ -1,0 +1,124 @@
+{
+  "schema": "grok-inbox/2",
+  "date": "2026-11-26",
+  "generated_at": "2026-11-26T05:26:54+07:00",
+  "window_hours": 24,
+  "status": "ok",
+  "items": [
+    {
+      "id": 1,
+      "title": "Anthropic migrates Claude Messages API from Python to Rust using Claude agents for verification",
+      "category": "feature_update",
+      "event_time": "2026-11-25T16:26:59Z",
+      "primary_url": "https://www.anthropic.com/research/migrating-api-to-rust",
+      "facts": [
+        "Anthropic migrated its Messages API from Python to Rust; Claude wrote a first version of the core request path in about a week.",
+        "The Rust API uses about 70% less CPU per request and cuts median time to first token by about 20%."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/AnthropicAI/status/2125627317263466739", "author": "@AnthropicAI", "official": true}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Cloudflare launches Search for Agents: one-toggle searchable endpoint for AI agents",
+      "category": "tool_launch",
+      "event_time": "2026-11-25T14:05:02Z",
+      "primary_url": "https://blog.cloudflare.com/search-for-agents/",
+      "facts": [
+        "Search for Agents puts AI Search behind a toggle in the Cloudflare dashboard to automatically index a zone and expose a discoverable search endpoint.",
+        "It is available to all customers including Free plans (with limits) and supports HTTP QUERY."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/Cloudflare/status/2125591595965702452", "author": "@Cloudflare", "official": true}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Claude Code engineer Thariq Shihipar joins OpenAI",
+      "category": "discussion",
+      "event_time": "2026-11-25T19:38:35Z",
+      "primary_url": null,
+      "facts": [
+        "Thariq Shihipar announced he has joined OpenAI after working on Claude Code at Anthropic."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/trq212/status/2125675533761671405", "author": "@trq212", "official": false}
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Google Antigravity improves Gemini 4 Neon cache hit rate for higher effective quota",
+      "category": "feature_update",
+      "event_time": "2026-11-25T17:24:07Z",
+      "primary_url": null,
+      "facts": [
+        "Varun Mohan stated that the cache hit rate for Neon in Antigravity was increased by another 4.5%, allowing 28% more tasks within quota.",
+        "In the last 5 days, caching and harness improvements increased effective Neon usage on the subscription by close to 75%."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/_mohansolo/status/2125641696377712968", "author": "@_mohansolo", "official": true}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Zed v1.30.2 adds AI commit message model picker, GPT-6.1 Terra support, and lower GPU usage",
+      "category": "feature_update",
+      "event_time": "2026-11-25T17:43:00Z",
+      "primary_url": "https://github.com/zed-industries/zed/releases",
+      "facts": [
+        "Zed v1.30.2 includes reduced GPU usage across the app, a model picker for AI commit message generation in the Git Panel, a setting to hide the title bar, support for GPT-6.1 Terra, and faster scanning of large projects."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/zeddotdev/status/2125648217794662525", "author": "@zeddotdev", "official": true}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Goose v1.61.0 adds Gemini 4 Neon to model catalog and MCP improvements",
+      "category": "feature_update",
+      "event_time": "2026-11-25T03:31:00Z",
+      "primary_url": "https://github.com/aaif-goose/goose/releases/tag/v1.61.0",
+      "facts": [
+        "Goose v1.61.0 adds Gemini 4 Neon to the model catalog, shows the provider before the model on the model button, imports MCP's server.json format into goose config, and treats all headers as secret in mcpServers configs over ACP."
+      ],
+      "x_posts": []
+    },
+    {
+      "id": 7,
+      "title": "OpenClaw v2026.11.10 ships with scheduled updates, agent addition from ClawHub, and browser takeover",
+      "category": "feature_update",
+      "event_time": "2026-11-25T05:42:00Z",
+      "primary_url": "https://github.com/openclaw/openclaw/releases",
+      "facts": [
+        "OpenClaw v2026.11.10 includes scheduled automatic updates, adding an agent from a trusted ClawHub package with settings in one CLAW.md manifest, OpenClaw ID to link owner devices, taking over the agent's browser from the Control UI, and steering a running conversation."
+      ],
+      "x_posts": []
+    },
+    {
+      "id": 8,
+      "title": "Developers discuss Antigravity weekly usage limits being drained quickly",
+      "category": "discussion",
+      "event_time": "2026-11-25T20:11:09Z",
+      "primary_url": null,
+      "facts": [
+        "Users report that the full weekly limit in Antigravity can be drained in a single day while using only about 3-4 five-hour limits."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/luisemaltez/status/2125683732514304443", "author": "@luisemaltez", "official": false}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Vercel Board experimental feature for coordinating humans and coding agents gains coverage",
+      "category": "tool_launch",
+      "event_time": "2026-11-25T13:57:00Z",
+      "primary_url": "https://vercel.com/blog/introducing-vercel-board",
+      "facts": [
+        "Vercel Board is an experimental headless message board where people and coding agents claim leased tasks and sync with Slack, GitHub and Linear.",
+        "It is harness-agnostic; Claude Code, Codex, Pi, OpenCode and others can collaborate on the same board."
+      ],
+      "x_posts": []
+    }
+  ]
+}
