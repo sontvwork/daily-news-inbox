@@ -1,0 +1,144 @@
+{
+  "schema": "grok-inbox/2",
+  "date": "2026-11-27",
+  "generated_at": "2026-11-27T05:27:00+07:00",
+  "window_hours": 24,
+  "status": "ok",
+  "items": [
+    {
+      "id": 1,
+      "title": "OpenAI fixes GPT-6.2 billing error that discounted Astra and Sol usage on ChatGPT and Codex",
+      "category": "feature_update",
+      "event_time": "2026-11-26T02:50:10Z",
+      "primary_url": "https://timesofindia.indiatimes.com/technology/tech-news/after-admitting-billing-mistake-at-gpt-6-2-launch-openai-to-combine-chatgpt-and-codex-usage-limits-users-to-reach-limits-40-faster/articleshow/136198153.cms",
+      "facts": [
+        "OpenAI made a billing mistake at launch of GPT-6.2 that incorrectly discounted GPT-6.2 Astra and Sol usage for most users.",
+        "After the fix, the same work will use more of the plan’s usage allowance; users will reach limits 40% faster on GPT-6.2 Astra and 25% faster on Sol compared to last week.",
+        "Other models were not affected, past usage will not be charged for the difference, and one banked reset is being added for Go, Plus, Pro, and Business plans."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/thsottiaux/status/2125784147889393806",
+          "author": "@thsottiaux",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Google Antigravity App ships v2.34.0 to v2.35.2 with Gemini 4 Neon, MCP Apps, and conversation management",
+      "category": "feature_update",
+      "event_time": "2026-11-26T00:01:25Z",
+      "primary_url": "https://antigravity.google/docs/changelog/",
+      "facts": [
+        "v2.35.2 (November 25) lets you change the selected model while a conversation turn is running, with a tooltip clarifying when the change takes effect.",
+        "v2.35.0 keeps local conversation history unlimited by default, offers a Conversation Management API for agents, and adds Cmd+F search inside full-page HTML artifacts.",
+        "v2.34.0 brings MCP App support and Gemini 4 Neon to eligible paid consumer plans."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/erintwalsh_/status/2125741680427208811",
+          "author": "@erintwalsh_",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Anthropic launches Claude Ship beta for automated PR review, fixes, and policy-based approvals",
+      "category": "tool_launch",
+      "event_time": "2026-11-23T00:00:00Z",
+      "primary_url": "https://claude.com/resources/articles/introducing-claude-ship",
+      "facts": [
+        "Claude Ship is available in beta on Claude Team and Enterprise plans for GitHub repositories.",
+        "It consists of Code Review (generally available), PR Steward (beta), and Claude Approvals (beta).",
+        "The /ship command is rolling out in Claude Code and the desktop app."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/urazeyo/status/2126077048376721894",
+          "author": "@urazeyo",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "GitHub Copilot code review billing will default to the organization from December 30",
+      "category": "feature_update",
+      "event_time": "2026-11-25T00:00:00Z",
+      "primary_url": "https://github.blog/changelog/2026-11-25-copilot-code-review-billing-will-default-to-the-organization/",
+      "facts": [
+        "Starting December 30, 2026, Copilot code reviews by members with a paid Copilot license will be billed to the organization that owns the repository if no billing choice has been saved.",
+        "This applies to organizations and enterprises on Copilot Business or Copilot Enterprise.",
+        "To keep the previous behavior, select Member before December 30."
+      ],
+      "x_posts": []
+    },
+    {
+      "id": 5,
+      "title": "Anthropic ships Skills over MCP public beta for Claude",
+      "category": "feature_update",
+      "event_time": "2026-11-24T18:05:47Z",
+      "primary_url": "https://claude.com/resources/articles",
+      "facts": [
+        "Skills over MCP is in public beta: MCP servers can ship their own skills next to tools so Claude loads them only when needed.",
+        "Tasks is now generally available, allowing servers to run long jobs in the background.",
+        "Elicitation is also generally available."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/ClaudeDevs/status/2125289794871963935",
+          "author": "@ClaudeDevs",
+          "official": true
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Google Antigravity CLI 1.5.18 released",
+      "category": "feature_update",
+      "event_time": "2026-11-26T00:00:00Z",
+      "primary_url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.5.18",
+      "facts": [
+        "Antigravity CLI 1.5.18 rejects truncated or corrupt images instead of attaching them.",
+        "It applies file permission rules to file:/// paths."
+      ],
+      "x_posts": []
+    },
+    {
+      "id": 7,
+      "title": "Discussion: MCP is evolving with Code Mode, native Skills, events, and Apps",
+      "category": "discussion",
+      "event_time": "2026-11-26T13:30:28Z",
+      "primary_url": null,
+      "facts": [
+        "Philipp Schmid argues the best harnesses will have the best MCP client, citing Code Mode + typed outputs, native Skills with versioning, always-on Events, and MCP Apps."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/_philschmid/status/2125945282072297794",
+          "author": "@_philschmid",
+          "official": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Developers discuss agentic coding workflows and multi-agent setups with Claude Code, Codex, and Antigravity",
+      "category": "trend",
+      "event_time": "2026-11-26T15:54:32Z",
+      "primary_url": null,
+      "facts": [
+        "Users note that running Claude Code, Codex, and Antigravity from the same API makes side-by-side comparison on the same task easier."
+      ],
+      "x_posts": [
+        {
+          "url": "https://x.com/mrbeko_/status/2125981540957995105",
+          "author": "@mrbeko_",
+          "official": false
+        }
+      ]
+    }
+  ]
+}
