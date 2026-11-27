@@ -1,0 +1,154 @@
+{
+  "schema": "grok-inbox/2",
+  "date": "2026-11-28",
+  "generated_at": "2026-11-28T05:25:00+07:00",
+  "window_hours": 24,
+  "status": "ok",
+  "items": [
+    {
+      "id": 1,
+      "title": "GitHub Copilot CLI 1.0.117 fixes MCP approval leakage",
+      "category": "feature_update",
+      "event_time": "2026-11-27T13:04:00Z",
+      "primary_url": "https://github.com/github/copilot-cli/releases/tag/v1.0.117",
+      "facts": [
+        "Approving an MCP server's tools for the session or for a location no longer also approves Copilot's built-in requests, such as shell commands or memory stores, when the server's name matches a built-in permission type.",
+        "The approval still covers that server's tools, including after the session is resumed.",
+        "Added sandbox.userPolicy.network.extraCaCertificates to trust custom CA certificates for sandboxed commands through TLS-intercepting proxies."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/fernandogomes/status/2126424456583073931", "author": "@fernandogomes", "official": false},
+        {"url": "https://x.com/thomas_rehmer/status/2126398649550942423", "author": "@thomas_rehmer", "official": false}
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Antigravity CLI 1.5.18 resolves file:/// permission gaps and image handling",
+      "category": "feature_update",
+      "event_time": "2026-11-26T05:52:00Z",
+      "primary_url": "https://github.com/google-antigravity/antigravity-cli/releases/tag/1.5.18",
+      "facts": [
+        "Fixed the agent attaching truncated or corrupt images to the conversation when viewing files; it now rejects them with an error, so a half-written image no longer makes later model requests fail and retry.",
+        "Fixed file permission rules and approval prompts not applying to files the agent reads or edits through file:/// URIs; those paths now resolve to the real file before permissions are checked.",
+        "Fixed plugins not loading on Windows when your workspace is on a different drive than your Antigravity configuration directory."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/erintwalsh_/status/2126411148584968475", "author": "@erintwalsh_", "official": true},
+        {"url": "https://x.com/logbydavid/status/2126441812751450169", "author": "@logbydavid", "official": false}
+      ]
+    },
+    {
+      "id": 3,
+      "title": "OpenCode 2.4.2 limits Always allow web fetches and adds GPT-6.2 prompts",
+      "category": "feature_update",
+      "event_time": "2026-11-26T00:59:00Z",
+      "primary_url": "https://github.com/anomalyco/opencode/releases/tag/v2.4.2",
+      "facts": [
+        "\"Always allow\" for a web fetch allows that site only. It used to allow every URL.",
+        "GPT-6.2 Sol and Astra, and the gpt-latest aliases, use a system prompt written for GPT-6.2.",
+        "generate_image and generate_video run inside Code Mode instead of as top-level tools, so their definitions no longer add about 700 tokens to every request."
+      ],
+      "x_posts": []
+    },
+    {
+      "id": 4,
+      "title": "Pydantic launches Pax, a plugin-first terminal coding agent",
+      "category": "tool_launch",
+      "event_time": "2026-11-25T20:15:08Z",
+      "primary_url": "https://pydantic.dev/articles/pax-harness-beta",
+      "facts": [
+        "Pax is the official Pydantic AI coding agent for your terminal, built on the Harness SDK.",
+        "Everything in Pax is a plugin, including the coding agent itself.",
+        "You can run your own Pydantic AI agent with pax --agent."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/pydantic/status/2125684732532777140", "author": "@pydantic", "official": true}
+      ]
+    },
+    {
+      "id": 5,
+      "title": "enhance-qa brings independent QA teams inside coding agents",
+      "category": "tool_launch",
+      "event_time": "2026-11-27T22:17:25Z",
+      "primary_url": "https://github.com/rohanvijaykumar/enhance-qa",
+      "facts": [
+        "A scout maps every screen and control and writes the test checklist.",
+        "Only the fixer touches your code. Nobody grades their own work.",
+        "Works with Claude Code and Codex, plus Cursor, GitHub Copilot, Gemini CLI and Antigravity."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/rohanvijaykumar/status/2126440282845564997", "author": "@rohanvijaykumar", "official": true},
+        {"url": "https://x.com/rohanvijaykumar/status/2126441377685012935", "author": "@rohanvijaykumar", "official": true}
+      ]
+    },
+    {
+      "id": 6,
+      "title": "Community highlights Claude Code /ship and steward PR repair loops",
+      "category": "discussion",
+      "event_time": "2026-11-27T22:19:59Z",
+      "primary_url": null,
+      "facts": [
+        "/code-review before the PR. add --fix and it repairs what it finds.",
+        "/ship when the change is done. opens the PR, reviews it, then keeps watching.",
+        "/steward 41 for a PR that already exists. starts the watch, skips the opening review."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/Klarsynx/status/2126440929414553929", "author": "@Klarsynx", "official": false}
+      ]
+    },
+    {
+      "id": 7,
+      "title": "Developers share Grok Bot workflows that hire Cursor cloud agents",
+      "category": "trend",
+      "event_time": "2026-11-27T22:23:29Z",
+      "primary_url": null,
+      "facts": [
+        "Grok Bot can now hire Cursor agents as its own developers.",
+        "Cloud Agents must be on in Cursor and your repo connected.",
+        "Never merge without my OK."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/choopyplug1/status/2126441810914422945", "author": "@choopyplug1", "official": false}
+      ]
+    },
+    {
+      "id": 8,
+      "title": "Antigravity DevRel summarizes CLI releases v1.5.13 to v1.5.18",
+      "category": "feature_update",
+      "event_time": "2026-11-27T20:21:39Z",
+      "primary_url": "https://github.com/google-antigravity/antigravity-cli/releases",
+      "facts": [
+        "Check out the latest Antigravity CLI v1.5.13 - v1.5.18 releases."
+      ],
+      "x_posts": [
+        {"url": "https://x.com/erintwalsh_/status/2126411148584968475", "author": "@erintwalsh_", "official": true}
+      ]
+    },
+    {
+      "id": 9,
+      "title": "Real Python publishes guide on GitHub Copilot CLI autonomy and /yolo",
+      "category": "discussion",
+      "event_time": "2026-11-27T21:30:26Z",
+      "primary_url": "https://realpython.com/github-copilot-cli/",
+      "facts": [
+        "How much should GitHub Copilot CLI, the coding agent in your terminal, do without asking you first?",
+        "Do you approve every command a coding agent runs, or turn on /yolo?"
+      ],
+      "x_posts": [
+        {"url": "https://x.com/realpython/status/2126428460591546686", "author": "@realpython", "official": true}
+      ]
+    },
+    {
+      "id": 10,
+      "title": "Claude Code 2.1.332 adds beta MCP server skills and PreSkillShellCommand hook",
+      "category": "feature_update",
+      "event_time": "2026-11-25T01:32:00Z",
+      "primary_url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.332",
+      "facts": [
+        "Added skills from MCP servers (beta). They show as server:skill in the / menu; other skills keep their names.",
+        "Added a PreSkillShellCommand hook event that can refuse a skill or command's inline shell commands as it loads."
+      ],
+      "x_posts": []
+    }
+  ]
+}
